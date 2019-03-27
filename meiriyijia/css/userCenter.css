@@ -1,0 +1,2086 @@
+.wrap {
+    font-size: 0;
+}
+
+/******侧边导航*****/
+
+.wrap .wrap_left {
+    float: left;
+    font-size: 0;
+    width: 169px;
+    border: 1px solid #e6e6e6;
+    border-top: 4px solid #ffa130;
+    margin-right: 24px;
+}
+
+.wrap .wrap_left li {
+    font-size: 14px;
+    text-align: center;
+    line-height: 58px;
+}
+
+.wrap .wrap_left li:hover {
+    background: #ffa130;
+    color: #fff;
+    cursor: pointer;
+}
+
+/***右边内容***/
+
+/*************************** 第一块个人中心默认显示内容样式开始 ***************************/
+
+.wrap .wrap_right {
+    float: left;
+    font-size: 0;
+    width: 1000px;
+}
+
+.wrap .wrap_right .user_info {
+    position: relative;
+    float: left;
+    width: 677px;
+    height: 152px;
+    overflow: hidden;
+}
+
+.wrap .wrap_right .user_info .user_img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    margin: auto;
+    width: 92px;
+    height: 92px;
+    line-height: 92px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: url(../img/ren.png)no-repeat center;
+}
+
+.icon {
+    position: absolute;
+    top: 95px;
+    left: 95px;
+    width: 28px;
+    height: 25px;
+    background: url(../img/vip_1.png) no-repeat center;
+}
+
+.wrap .wrap_right .user_info .title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 154px;
+    margin: auto;
+    height: 64px;
+    font-size: 14px;
+}
+
+.wrap .wrap_right .user_info .title h2 {
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.wrap .wrap_right .user_info .title h2 span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 23px;
+    border-radius: 9px;
+    background: #ffa130;
+    color: #FFF;
+}
+
+.wrap .wrap_right .user_card {
+    float: right;
+    width: 168px;
+    height: 154px;
+    padding-left: 130px;
+    background: url(../img/card.png) no-repeat 16% center, #faf8f4;
+}
+
+.wrap .wrap_right .user_card p {
+    font-size: 14px;
+    padding-bottom: 14px;
+}
+
+.wrap .wrap_right .user_card p:last-child {
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #0d0d0d;
+}
+
+.wrap .wrap_right .user_card p:first-child {
+    margin-top: 56px;
+    color: #808080;
+}
+
+/******我的订单*****/
+
+.wrap .wrap_right .otitle {
+    margin: 24px auto;
+}
+
+.otitle .order {
+    font-size: 14px;
+    padding-left: 12px;
+    border-left: 4px solid #f66061;
+}
+
+.otitle .right {
+    float: right;
+    font-size: 14px;
+    padding-right: 24px;
+}
+
+/**********************************/
+
+.wrap_right .orderlist_title {
+    height: 43px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 14px;
+    line-height: 43px;
+    text-indent: 18px;
+}
+
+.wrap_right .orderlist_row_item {
+    margin: 8px auto;
+    height: 139px;
+}
+
+.wrap_right .orderlist_row_item .col {
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+}
+
+.wrap_right .orderlist_row_item .col_img {
+    width: 100px;
+    height: 100px;
+    margin: 25px 25px 25px 10px;
+    overflow: hidden;
+}
+
+.wrap_right .orderlist_row_item .col_img img {
+    width: 100%;
+}
+
+.wrap_right .orderlist_row_item .col_text {
+    width: 192px;
+    height: 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.wrap_right .orderlist_row_item .col_num {
+    width: 182px;
+    height: 20px;
+    line-height: 1.5em;
+    font-size: 14px;
+    text-align: center;
+}
+
+.wrap_right .orderlist_row_item .col_pay, .wrap_right .orderlist_row_item .col_info {
+    width: 167px;
+    line-height: 20px;
+    padding: 46px 0;
+    font-size: 14px;
+    text-align: center;
+    border-right: 1px solid #e6e6e6;
+}
+
+.wrap_right .orderlist_row_item .col_info {
+    border-right: 1px solid #e6e6e6;
+}
+
+.wrap_right .orderlist_row_item .col_btn {
+    width: 102px;
+    height: 34px;
+    margin-left: 28px;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrap_right .orderlist_row_item .col_btn:hover {
+    width: 100px;
+    background-color: #f5f5f5;
+    border: solid 1px #e5e5e5;
+}
+
+.wrap_right .shoucang {
+    border-left: 1px solid #e5e5e5;
+}
+
+.wrap_right .shoucang>div {
+    width: 190px;
+    float: left;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+    padding: 15px 29px;
+}
+
+.wrap_right .shoucang>div .shoucang_img {
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.wrap_right .shoucang>div .shoucang_img img {
+    vertical-align: middle;
+}
+
+.wrap_right .shoucang>div .shoucang_text {
+    font-size: 14px;
+    text-align: center;
+    color: #4d4d4d;
+    padding: 15px 0;
+}
+
+.wrap_right .shoucang>div .shoucang_text>p {
+    width: 180px;
+    line-height: 26px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.wrap_right .shoucang>div .shoucang_text>p .dazhe {
+    padding-right: 90px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #ed601b;
+}
+
+.wrap_right .shoucang>div .shoucang_text>p .yuanjia {
+    text-decoration: line-through;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #999999;
+}
+
+.wrap_right .shoucang>div .shoucang_btn {
+    width: 70px;
+    height: 28px;
+    font-size: 13px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*************************** 第一块个人中心  默认显示内容样式结束 ***************************/
+
+/*************************** 第二块个人中心 基本资料修改 开始 ***************************/
+
+.wrap_right .user {}
+
+.wrap_right .user_title {
+    border-right: 1px solid #e5e5e5;
+    font-size: 14px;
+    width: 100px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.wrap_right .user_img {
+    height: 106px;
+    padding: 42px 0 50px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.wrap_right .user .img_title {
+    padding-left: 20px;
+    font-size: 14px;
+    float: left;
+    color: #999;
+}
+
+.wrap_right .image {
+    float: left;
+    margin-left: 40px;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrap_right .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap_right .user .img_btn {
+    position: absolute;
+    width: 92px;
+    height: 29px;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .3)
+}
+
+.wrap_right .info_input {
+    font-size: 14px;
+}
+
+.wrap_right .info_input span {
+    width: 80px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.wrap_right .user .info_state {
+    padding-left: 111px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #737373;
+    margin: 10px 0 37px 0;
+}
+
+.wrap_right .user input {
+    border: 1px solid #e5e5e5;
+    width: 277px;
+    height: 47px;
+    text-indent: 5px;
+}
+
+.wrap_right .user .btn {
+    width: 80px;
+    height: 35px;
+    background: url(../img/btn.png) no-repeat center;
+    border: none;
+    cursor: pointer;
+    margin: 50px 0 114px 200px;
+    color: #fff;
+}
+
+.wrap_right .nav {
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    padding-top: 8px;
+    padding-bottom: 22px;
+    height: 215px;
+}
+
+.wrap_right .nav li {
+    padding-left: 20px;
+    margin: 23px 0;
+}
+
+.wrap_right .nav li span {
+    text-align: left;
+}
+
+.wrap_right .nav .title {
+    width: 129px;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #4d4d4d;
+}
+
+.wrap_right .nav .text {
+    width: 440px;
+    font-size: 12px;
+    color: #737373;
+    letter-spacing: 1px;
+}
+
+.wrap_right .nav .btn {
+    width: 80px;
+    height: 35px;
+    background-color: #26c08a;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*************************** 第二块 个人中心 资料修改 开始 ***************************/
+
+/*************************** 第三块 个人中心 修改密码 开始 ***************************/
+
+/*************************** 第四块 个人中心 我能供应 开始 ***************************/
+
+/*************************** 第五块 个人中心 钱包密码 开始 ***************************/
+
+.wrap_right .change_title {
+    width: 98px;
+    height: 46px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #4d4d4d;
+}
+
+.wrap_right .change_input {
+    padding: 18px 0 70px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    font-family: HiraginoSansGB-W3;
+}
+
+.wrap_right .change_input li {
+    margin: 15px 0;
+    color: #4d4d4d;
+}
+
+.wrap_right .change_input li input {
+    width: 277px;
+    height: 34px;
+    text-indent: 15px;
+    border: 1px solid #e5e5e5;
+    background: none;
+}
+
+.wrap_right .change_input li span {
+    width: 70px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.wrap_right .change_input .info_state {
+    width: 310px;
+    height: 14px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #808080;
+}
+
+.wrap_right .change_input .btn {
+    width: 80px;
+    height: 35px;
+    background: url(../img/btn.png) no-repeat center;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 39px 0;
+}
+
+/*************************** 第三块 个人中心 修改密码 结束 ***************************/
+
+.wrap_right .change_input .miaoshu {
+    width: 487px;
+    height: 141px;
+    padding: 15px;
+}
+
+.wrap_right .gongying {
+    border-bottom: none;
+}
+
+.wrap_right .change_input .file {
+    width: 90px;
+    height: 90px;
+    font-size: 48px;
+    text-align: center;
+    line-height: 90px;
+    color: #dbdbdb;
+    cursor: pointer;
+}
+
+.wrap_right .change_input .file input {
+    display: none;
+}
+
+/*************************** 第四块 个人中心 我能供应 结束 ***************************/
+
+.wrap_right .pay {
+    padding-bottom: 24px;
+}
+
+.wrap_right .change_input .yz {
+    position: relative;
+}
+
+.wrap_right .change_input .phone_yz {
+    position: absolute;
+    display: inline-block;
+    width: 103px;
+    height: 35px;
+    line-height: 35px;
+    background: #26c08a;
+    color: #fff;
+    font-size: 14px;
+    left: 246px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*************************** 第五块 个人中心 钱包密码修改 结束 ***************************/
+
+/*************************** 第六块 个人中心 充值成功 开始 ***************************/
+
+.recharge {
+    position: relative;
+    height: 450px;
+}
+
+.recharge_text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 463px;
+    height: 228px;
+}
+
+.recharge_ok {
+    width: 280px;
+    height: 56px;
+    padding-left: 43px;
+    margin: 0 auto;
+    text-align: right;
+    background: url(../img/ok.png) no-repeat left center;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 56px;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+}
+
+.recharge_blank {
+    width: 103px;
+    margin: 0 auto;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.recharge_blank .num {
+    color: #26c08a;
+}
+
+/*************************** 第六块 个人中心 充值成功 结束 ***************************/
+
+/*************************** 第七块 个人中心 会员等级 开始 ***************************/
+
+.wrap_right .vip_text {
+    font-size: 14px;
+    border-top: 1px solid #e5e5e5;
+    padding: 22px 0 0 29px;
+    margin-bottom: 110px;
+}
+
+.wrap_right .vip_text p {
+    line-height: 30px;
+}
+
+.wrap_right .vip_text .btn {
+    width: 89px;
+    height: 35px;
+    background-color: #26c08a;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    margin-top: 22px;
+}
+
+.wrap_right .vip_list {
+    width: 820px;
+    padding-top: 45px;
+    background: url(../img/VIP_BG.png) no-repeat center top;
+}
+
+.wrap_right .vip_list .vip_list_itme {
+    width: 273px;
+}
+
+.wrap_right .vip_list .vip_list_itme ol {
+    width: 200px;
+    margin: 0 auto;
+    list-style: decimal;
+    font-size: 14px;
+}
+
+/*************************** 第七块 个人中心 会员等级 结束 ***************************/
+
+/*************************** 第八块 个人中心 升级会员 开始 ***************************/
+
+.up_vip {}
+
+.up_vip .pay_state {
+    height: 120px;
+    background: #fef6ed;
+    overflow: hidden;
+}
+
+.up_vip .pay_state p {
+    margin: 23px 0 23px 33px;
+}
+
+.up_vip .pay_state p span {
+    display: inline-block;
+    width: 102px;
+    height: 35px;
+    border: 1px solid #999;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.up_vip .pay_state p span.up_pay {
+    background-color: #f83131;
+    border: solid 1px #f83131;
+    color: #fff;
+}
+
+.up_vip .pay_info {
+    margin-top: 20px;
+}
+
+.up_vip .pay_info .pay_info_title {
+    height: 40px;
+    text-indent: 15px;
+    line-height: 40px;
+}
+
+.up_vip .pay_info .order_list_title {
+    height: 40px;
+    background: #f5f5f5;
+    border-left: none;
+    border-right: none;
+}
+
+.up_vip .pay_info .order_list_title>div {
+    font-size: 14px;
+    text-align: center;
+    color: #808080;
+}
+
+.up_vip .pay_info .order_list_title .title {
+    width: 400px;
+    text-indent: 95px;
+    text-align: left;
+}
+
+.up_vip .pay_info .order_list_title .guige, .up_vip .pay_info .order_list_item .guige {
+    width: 135px;
+}
+
+.up_vip .pay_info .order_list_title .number, .up_vip .pay_info .order_list_item .number {
+    width: 145px;
+}
+
+.up_vip .pay_info .order_list_title .unit, .up_vip .pay_info .order_list_item .unit {
+    width: 180px;
+}
+
+.up_vip .pay_info .order_list_title .state, .up_vip .pay_info .order_list_item .state {
+    width: 160px;
+}
+
+.up_vip .pay_info .order_list_title .total, .up_vip .pay_info .order_list_item .total {
+    width: 177px;
+}
+
+.up_vip .pay_info .order_list_item {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.up_vip .pay_info .order_list_item>div {
+    text-align: center;
+    font-size: 14px;
+}
+
+.up_vip .pay_info .order_list_item .title {
+    width: 400px;
+    font-size: 0;
+    text-align: left;
+}
+
+.up_vip .pay_info .order_list_item .title .img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 18px 38px;
+}
+
+.up_vip .pay_info .order_list_item .title .img img {
+    width: 100%;
+}
+
+.up_vip .pay_info .order_list_item .title .text {
+    width: 210px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #4d4d4d;
+}
+
+.up_vip .pay_info .order_list_item .state {
+    width: 159px;
+    line-height: 100px;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+
+.up_vip .pay_info .order_list_item .notes {
+    font-size: 13px;
+    color: #999;
+    line-height: 2em;
+}
+
+.up_vip .pay_info .totals {
+    line-height: 78px;
+    margin-right: 40px;
+    font-size: 14px;
+    text-align: right;
+    color: #4d4d4d;
+}
+
+.up_vip .pay_info .totals span {
+    font-size: 14px;
+    color: #ed601b;
+    padding: 0 14px;
+}
+
+.up_vip .pay_info .totals span i {
+    font-size: 18px;
+    font-style: normal;
+}
+
+/*************************** 第八块 个人中心 升级会员 结束 ***************************/
+
+/*************************** 第九块 个人中心 我的钱包 开始 ***************************/
+
+.card {
+    width: 1000px;
+}
+
+.card .card_title {
+    height: 48px;
+    background: #f0f0f0;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.card .card_title div {
+    width: 100px;
+    font-size: 14px;
+    color: #737373;
+    text-align: center;
+}
+
+.card .card_title div:hover, .card .card_title .active {
+    line-height: 48px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.card .card_list .card_list_item {}
+
+.card .card_list .card_list_item .card_list_item_a {
+    width: 342px;
+    height: 155px;
+    margin: 36px 375px 0 286px;
+    background: #faf8f4;
+    border-color: #e5e5e5;
+}
+
+.card .card_list .card_list_item .card_list_item_a .text {
+    width: 100px;
+    height: 64px;
+    margin: 45px auto 0;
+    padding-left: 80px;
+    background: url(../img/card.png) no-repeat left center;
+}
+
+.card .card_list .card_list_item .card_list_item_a .text {
+    line-height: 1.2em;
+    font-size: 22px;
+    color: #0d0d0d;
+    text-align: left;
+}
+
+.notes {
+    font-size: 13px;
+    color: #999;
+}
+
+.card .card_list .card_list_item .card_list_item_b {
+    width: 342px;
+    height: 53px;
+    margin: 32px 375px 0 286px;
+}
+
+.card .card_list .card_list_item .card_list_item_b .alipay {
+    width: 50px;
+    line-height: 30px;
+    margin: 9px 0 14px 19px;
+    padding-left: 40px;
+    background: url(../img/alipay.png) no-repeat left center;
+    font-size: 14px;
+}
+
+.card .card_list .card_list_item .btn {
+    width: 89px;
+    height: 35px;
+    margin: 62px 501px 73px 431px;
+    background: #26c08a;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+}
+
+/****************  账单   ****************/
+
+.card .card_list .zhangdan {
+    padding: 30px 15px;
+}
+
+.card .card_list .card_list_item .time {
+    position: relative;
+    width: 11px;
+    height: 100%;
+    background: url(../img/times.png) repeat-y;
+    background-position: -11px 0;
+}
+
+.card .card_list .card_list_item .time .month {
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+.card .card_list .card_list_item .time .month .month_text>i {
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url(../img/times.png) no-repeat;
+    background-position: 0 0;
+}
+
+.card .card_list .card_list_item .time .month .month_text {
+    width: 50px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    text-align: center;
+}
+
+.card .card_list .card_list_item .time .month .day {
+    position: relative;
+    width: 465px;
+    height: 84px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    left: 42px;
+    margin-top: 15px
+}
+
+.card .card_list .card_list_item .time .month .day em {
+    position: absolute;
+    left: -45px;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url(../img/times.png) no-repeat;
+    background-position: -22px 0;
+    top: 50%;
+    margin-top: -6px;
+}
+
+.card .card_list .card_list_item .time .month .day>i {
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    margin-top: -18px;
+}
+
+.card .card_list .card_list_item .time .month .day>i:after {
+    content: '';
+    display: block;
+    border: 15px solid #e5e5e5;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.card .card_list .card_list_item .time .month .day>i:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 2px;
+    border: 15px solid #fff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.card .card_list .card_list_item .day .day_text {
+    width: 343px;
+    line-height: 40px;
+    font-family: HiraginoSansGB-W3;
+    overflow: hidden;
+}
+
+.card .card_list .card_list_item .day .day_text .day_title {
+    text-indent: 1em;
+    font-size: 16px;
+    color: #4d4d4d
+}
+
+.card .card_list .card_list_item .day .day_text .day_time {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #666666;
+    text-indent: 1em;
+}
+
+.card .card_list .card_list_item .day .day_money {
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    font-family: HiraginoSansGB-W3;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #1a1a1a;
+}
+
+/*************************** 第九块 个人中心 我的钱包 结束 ***************************/
+
+/*************************** 第十块 个人中心 我的收藏 开始 ***************************/
+
+.collection .collection_list {
+    border: 1px solid #e5e5e5;
+}
+
+.collection .collection_list_title {
+    height: 51px;
+    background: #f7f7f7;
+}
+
+.collection .collection_list .check {
+    width: 150px;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.collection .collection_list i {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #cdcdcd;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.collection .collection_list i:hover, .collection .collection_list i.active {
+    border: 1px solid #fff;
+    background: url(../img/radio_ok.png) no-repeat center;
+}
+
+.collection .collection_list .check span {
+    line-height: 14px;
+    padding-right: 10px;
+    margin: 0 10px;
+    border-right: 1px solid #cdcdcd;
+}
+
+.collection .collection_list .check a {
+    color: #ca4444;
+}
+
+.collection .collection_list_title .title {
+    width: 330px;
+    text-indent: 40px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.collection .collection_list_title .unit {
+    width: 220px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.collection .collection_list_title .other {
+    width: 298px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.collection .collection_list_item li {
+    border-top: 1px solid #e5e5e5;
+    padding: 5px 0;
+}
+
+.collection .collection_list_item .title {
+    width: 473px;
+}
+
+.collection .collection_list_item .img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    padding: 10px 21px;
+}
+
+.collection .collection_list_item .img img {
+    width: 100%;
+}
+
+.collection .collection_list_item .text {
+    width: 190px;
+    max-height: 75px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.collection .collection_list_item .unit {
+    width: 220px;
+    text-align: center;
+    border-top: none;
+    border-bottom: none;
+    font-size: 14px;
+    color: #ca4444;
+    line-height: 100px;
+}
+
+.collection .collection_list_item .other {
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*************************** 第十块 个人中心 我的收藏 结束 ***************************/
+
+/*************************** 第十一块 个人中心 收货地址 开始 ***************************/
+
+.address {
+    
+}
+
+.address .address_list {
+    border-top: 1px solid #e5e5e5;
+}
+
+.address .address_list .address_list_item {
+    position: relative;
+    float: left;
+    width: 466px;
+    height: 108px;
+    margin-top: 20px;
+    margin-right: 25px;
+    border: 2px solid #e5e5e5;
+    background: #f7f7f7 url(../img/gou_1.png) no-repeat right top;
+}
+
+.address .address_list .address_list_item.active, .address .address_list .address_list_item:hover {
+    background: #f7f7f7 url(../img/gou.png) no-repeat right top;
+    border: 2px solid #fb9898;
+}
+
+.address .address_list .address_list_item .a {
+    width: 365px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.address .address_list .address_list_item .a p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: MicrosoftYaHei;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.address .address_list .address_list_item .a p span {
+    padding-left: 25px;
+}
+
+.address .address_list .address_list_item .b {
+    width: 95px;
+    margin-bottom: 15px;
+    vertical-align: bottom;
+    font-size: 14px;
+}
+
+.address .address_list .address_list_item .b a {
+    padding: 0 3px;
+}
+
+.address .address_list .address_list_item .addrees_icon {
+    width: 32px;
+    height: 28px;
+    background: url(../img/gou.png) no-repeat center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.address .address_add {
+    width: 98px;
+    height: 34px;
+    border: 1px solid #e5e5e5;
+    margin-top: 17px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+    color: #808080;
+}
+
+/************* 添加地址的弹窗 *************/
+
+.address_popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg_tc.png);
+    top: 0;
+    left: 0;
+}
+
+.address_popup .popup_window {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 848px;
+    height: 524px;
+    border: 12px solid #ccc;
+    background: #fff;
+}
+
+.address_popup .popup_window .popup_title {
+    height: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 42px;
+    text-indent: 14px;
+    background: #f0eded;
+}
+
+.address_popup .popup_window .popup_state {
+    width: 390px;
+    height: 76px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.address_popup .popup_window .popup_state span {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #f79c31;
+    padding-right: 15px;
+    padding-left: 14px;
+}
+
+.address_popup .popup_window .popup_input {
+    padding-left: 14px;
+}
+
+.address_popup .popup_window .popup_input .input {
+    margin-bottom: 17px;
+}
+
+.address_popup .popup_window .popup_input .text {
+    width: 120px;
+    height: 35px;
+    margin-right: 20px;
+    text-align: right;
+    vertical-align: top;
+    font-size: 14px;
+    color: #000;
+}
+
+.address_popup .popup_window .popup_input input[type="text"] {
+    border: 1px solid #ccc;
+    background: #fff;
+    height: 34px;
+    text-indent: 14px;
+}
+
+.address_popup .popup_window .popup_input input.tel {
+    width: 193px;
+}
+
+.address_popup .popup_window .popup_input input.dizhi {
+    width: 427px;
+}
+
+.address_popup .popup_window i {
+    display: inline-block;
+    width: 14px;
+    text-align: center;
+    color: #ff0202;
+}
+
+.address_popup .popup_window select {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-right: 7px;
+    text-indent: 14px;
+}
+
+.address_popup .popup_window textarea {
+    width: 525px;
+    height: 63px;
+    padding: 10px 15px;
+}
+
+.address_popup .popup_window .popup_input .input.check {
+    font-size: 14px;
+}
+
+.address_popup .popup_window .popup_input .input.btn {
+    width: 113px;
+    height: 33px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 33px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+/*************************** 第十一块 个人中心 收货地址 结束 ***************************/
+
+/*************************** 第十二块 个人中心 帮助中心 开始 ***************************/
+
+
+
+.help .help_title {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.help .help_content {
+    margin-top: 20px;
+    padding:10px 15px;
+}
+
+.help .help_content .title{
+    font-size:16px;
+	color: #808080;
+}
+.help .help_content .help_list{
+    list-style: decimal;
+    width:564px;
+    padding-left:37px;
+    padding-top:25px;
+}
+.help .help_content .help_list li{
+    position: relative;
+    font-size:14px;
+    margin-bottom:44px;
+}
+.help .help_content .help_list li i {
+    position: absolute;
+    top: 5px;
+    left: -35px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffb051;
+}
+.help .help_content .help_list li p{
+    padding-bottom:14px;
+} 
+.help_right{
+    float:right;
+    width:396px;
+}
+.help_right .help_right_content{
+    width:161px;
+    height:217px;
+}
+.help_right .help_right_content>div{
+    font-size:14px;
+    text-align: center;
+    margin:28px auto 0;
+}
+.help_right .help_right_content .help_icon{
+    width:63px;
+    height:63px;
+    background:url(../img/kefu.png) no-repeat center;
+    margin:auto;
+}
+.help_right .help_right_content .help_btn{
+    width: 118px;
+	height: 35px;
+    background:url(../img/help_btn.png) no-repeat center;
+    cursor:pointer;
+}
+
+
+/*************************** 第十二块 个人中心 帮助中心 结束 ***************************/
+
+/*************************** 第十三块 个人中心 意见反馈 开始 ***************************/
+
+.feedback{
+
+}
+.fedback_title{
+    border-bottom:1px solid #e5e5e5;
+}
+.feedback_input textarea{
+    width:614px;
+    height: 246px;
+    background:#f5f5f5;
+    margin-top:20px;
+    padding:5px;
+    border:1px solid #e5e5e5;
+}
+.feedback_btn{
+    width:98px;
+    height:35px;
+    background:url(../img/tijiao_btn.png) no-repeat center right;
+    margin-top:20px;
+    margin-left:520px;
+    cursor:pointer;
+}
+
+/*************************** 第十三块 个人中心 意见反馈 结束 ***************************/
+/*************************** 第十四块 个人中心 订单状态 开始 ***************************/
+.order_state_info{
+    height:120px;
+    background:#fef6ed;
+    padding-left:33px;
+    overflow: hidden;
+}
+.order_state_info >div{
+    margin:20px 0;
+}
+.order_state_info >div span{
+    display: inline-block;
+    vertical-align: middle;
+    width:102px;
+    height:35px;
+    border-radius:5px;
+    text-align:center;
+    line-height:35px;
+    cursor:pointer;
+}
+.order_state_info >div span.fukuan{
+    background:#f83131;
+    color:#fff;
+    margin-left:24px;
+    margin-right:26px;
+}
+.order_state_info >div span.quxiao{
+    width:100px;
+    height:33px;
+    border:1px solid #999;
+    color:#666;
+}
+.order_state .order_info {
+    margin-top:20px;
+}
+.order_state .order_info .info_title{
+    height:45px;
+    line-height: 45px;
+    text-indent:15px;
+    border-bottom:1px solid #e5e5e5;
+}
+.order_state .order_info .info_address{
+    padding-left:15px;
+    padding-bottom:30px;
+}
+.order_state .order_info .info_address p{
+    line-height:40px;
+    margin:0;
+}
+.order_state .order_info .info_address p .title{
+    display:inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    width:70px;
+    height:40px;
+}
+.order_state .order_info .info_address p textarea{
+    height:50px;
+    width:650px;
+    vertical-align:text-top;
+    padding:5px;
+}
+.order_state .order_list{
+    
+}
+
+
+.order_state .pay_info {
+    margin-top: 20px;
+}
+
+.order_state .pay_info .pay_info_title {
+    height: 40px;
+    text-indent: 15px;
+    line-height: 40px;
+}
+
+.order_state .pay_info .order_list_title {
+    height: 40px;
+    background: #f5f5f5;
+    border-left: none;
+    border-right: none;
+}
+
+.order_state .pay_info .order_list_title>div {
+    font-size: 14px;
+    text-align: center;
+    color: #808080;
+}
+
+.order_state .pay_info .order_list_title .title {
+    width: 400px;
+    text-indent: 95px;
+    text-align: left;
+}
+
+.order_state .pay_info .order_list_title .guige, .order_state .pay_info .order_list_item .guige {
+    width: 135px;
+}
+
+.order_state .pay_info .order_list_title .number, .order_state .pay_info .order_list_item .number {
+    width: 145px;
+}
+
+.order_state .pay_info .order_list_title .unit, .order_state .pay_info .order_list_item .unit {
+    width: 180px;
+}
+
+.order_state .pay_info .order_list_title .state, .order_state .pay_info .order_list_item .state {
+    width: 160px;
+}
+
+.order_state .pay_info .order_list_title .total, .order_state .pay_info .order_list_item .total {
+    width: 177px;
+}
+
+.order_state .pay_info .order_list_item {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.order_state .pay_info .order_list_item>div {
+    text-align: center;
+    font-size: 14px;
+}
+
+.order_state .pay_info .order_list_item .title {
+    width: 400px;
+    font-size: 0;
+    text-align: left;
+}
+
+.order_state .pay_info .order_list_item .title .img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 18px 38px;
+}
+
+.order_state .pay_info .order_list_item .title .img img {
+    width: 100%;
+}
+
+.order_state .pay_info .order_list_item .title .text {
+    width: 210px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #4d4d4d;
+}
+
+.order_state .pay_info .order_list_item .state {
+    width: 159px;
+    line-height: 100px;
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+
+.order_state .pay_info .order_list_item .notes {
+    font-size: 13px;
+    color: #999;
+    line-height: 2em;
+}
+
+.order_state .pay_info .totals {
+    line-height: 78px;
+    margin-right: 40px;
+    font-size: 14px;
+    text-align: right;
+    color: #4d4d4d;
+}
+
+.order_state .pay_info .totals span {
+    font-size: 14px;
+    color: #ed601b;
+    padding: 0 14px;
+}
+
+.order_state .pay_info .totals span i {
+    font-size: 18px;
+    font-style: normal;
+}
+/*************************** 第十四块 个人中心 订单状态 结束 ***************************/
+/*************************** 第十五块 个人中心 我的订单 待付款 开始 ***************************/
+.order_lists{
+
+}
+.order_lists .order_lists_nav{
+    height:48px;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.order_lists .lists_title{
+    width:100px;
+    height:100%;
+    border:1px solid #e5e5e5;
+    border-bottom:none;
+    font-size:18px;
+    line-height:48px;
+    text-align: center;
+    color:#737373;
+    margin-right:20px;
+}
+.order_lists .order_lists_nav li{
+    float: left;
+    font-size:18px;
+    line-height:49px;
+    text-align: center;
+    color:#737373;
+    padding:0 25px;
+    margin:0 30px;
+}
+.order_lists .order_lists_nav li:hover,
+.order_lists .order_lists_nav li.active{
+    color:#ffa130;
+    line-height:49px;
+    border-bottom:2px solid #ffa130;
+    cursor:pointer;
+}
+.order_lists .order_lists_nav_name{
+    height:40px;
+    background:#f5f5f5;
+    margin-top:50px;
+}
+
+.order_lists .order_lists_nav_name .order_list_title {
+    height: 40px;
+    background: #f5f5f5;
+    border-left: none;
+    border-right: none;
+}
+
+.order_lists .order_lists_nav_name .order_list_title>div {
+    font-size: 14px;
+    text-align: center;
+    color: #808080;
+}
+
+.order_lists .order_lists_nav_name .order_list_title .title {
+    width: 385px;
+    text-indent: 45px;
+    text-align: left;
+}
+
+.order_lists .order_lists_nav_name .order_list_title .number {
+    width: 120px;
+}
+
+.order_lists .order_lists_nav_name .order_list_title  .unit {
+    width: 170px;
+}
+
+.order_lists .order_lists_nav_name .order_list_title  .state {
+    width: 160px;
+}
+
+.order_lists .order_lists_nav_name .order_list_title  .total{
+    width: 160px;
+}
+.order_lists .order_lists_item .orderlist_row .orderlist_row_item .btn{
+    width: 160px;
+}
+.page{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    text-align: right;
+    cursor: pointer;
+}
+.page .up_left,
+.page .out_right{
+    width:20px;
+    height:20px;
+    line-height: 20px;
+    border:1px solid #e5e5e5;
+    font-size:14px;
+    text-align: center;
+    font-style:normal;
+}
+.page span{
+    width:50px;
+    height:20px;
+    line-height: 20px;
+    border:1px solid #e5e5e5;
+    font-size:14px;
+    text-align: center;
+    font-style:normal;
+}
+.page>*{
+    margin-left:5px;
+}
+.page>*:hover,
+.page .active {
+    color:#ffa130;
+}
+.order_lists_item{
+    margin-bottom:15px;
+}
+.order_lists_item .order_title{
+    height:40px;
+    font-size: 14px;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.order_lists_item .order_title .order_del{
+    float: right;
+    text-align: right;
+    height:100%;
+    line-height: 45px;
+    cursor:pointer;
+}
+.order_lists_item .order_title .order_del i{
+    display: inline-block;
+    width:19px;
+    height:19px;
+    background:url(../img/icon_del.png) no-repeat center;
+    margin-right:65px;
+}
+.order_lists_item .order_title .order_number{
+    line-height:40px;
+    text-indent:45px;
+    float: left;
+}
+.order_lists_item .orderlist_row{
+    margin-bottom:15px;
+    border:1px solid #e5e5e5;
+}
+.order_lists_item .orderlist_row .orderlist_row_item{
+    padding-left:45px;
+}
+.order_lists_item .orderlist_row .orderlist_row_item .total{
+    font-size:16px;
+    color: #ed601b;
+}
+.order_lists_item .orderlist_row .orderlist_row_item .col_num{
+    width: 130px;
+}
+.order_lists_item .orderlist_row .orderlist_row_item .fukuan{
+    width:102px;
+    height:35px;
+    border-radius:5px;
+    border:1px solid #f83131;
+    font-size:14px;
+    color:#f83131;
+    margin:0 auto 10px;
+    text-align:center;
+    line-height: 35px;
+    cursor: pointer;
+}
+.order_lists_item .orderlist_row .orderlist_row_item .quxiao{
+    width:102px;
+    height:35px;
+    font-size:14px;
+    margin:0 auto;
+    text-align:center;
+    line-height: 35px;
+    cursor: pointer;
+}
+/*************************** 第十五块 个人中心 我的订单 待付款 结束 ***************************/
+/*************************** 第十五块 个人中心 我的订单 待收货 开始 ***************************/
+.order_lists_item .orderlist_row .orderlist_row_item .col_info,
+.order_lists_item .orderlist_row .orderlist_row_item .col_pay{
+    border:none;
+}
+.order_lists_item .orderlist_row .orderlist_row_item .shouhuo{
+    width:102px;
+    height:35px;
+    border:1px solid #26c08a;
+    color:#26c08a;
+    border-radius:5px;
+    margin:0 auto;
+    font-size:14px;
+    text-align:center;
+    line-height:35px;
+    cursor:pointer;
+}
+.order_lists_item .orderlist_row .orderlist_row_item .pingjia{
+    width:102px;
+    height:35px;
+    border:1px solid #999;
+    color:#666;
+    border-radius:5px;
+    margin:0 auto;
+    font-size:14px;
+    text-align:center;
+    line-height:35px;
+    cursor:pointer;
+}
+.order_lists_item .orderlist_row .orderlist_row_item .tuikuan{
+    text-align:center;
+    font-size: 14px;
+}
+/*************************** 第十五块 个人中心 我的订单 已完成 ***************************/
+/*************************** 第十五块 个人中心 我的订单 状态 开始 ***************************/
+.order_state_fahuo .info_title,
+.order_state_shouhuo .info_title,
+.order_state_fahuo .info_title,
+.order_state_fahuo .info_title,
+.order_state_fahuo .info_title
+{
+    width:100px;
+    border:1px solid #e5e5e5;
+    border-bottom:none;
+}
+.order_state_fahuo  .info_address{
+   padding:0 0 30px 0;
+}
+.order_state_shouhuo .shouhuo{
+    width:102px;
+    height:35px;
+    border:1px solid #26c08a;
+    color:#26c08a;
+    border-radius:5px;
+    margin:0 auto;
+    font-size:14px;
+    text-align:center;
+    line-height:35px;
+    cursor:pointer;
+}
+.order_state_wancheng .pingjia,
+.order_state_wancheng .tuihuo{
+    width:102px;
+    height:35px;
+    border:1px solid #999;
+    color:#666;
+    border-radius:5px;
+    margin:0 auto;
+    font-size:14px;
+    text-align:center;
+    line-height:35px;
+    cursor:pointer;
+}
+/****************** 退货弹窗 ******************/
+.order_state_wancheng .tuihuo_info{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0, .3);
+}
+.order_state_wancheng .tuihuo_info .tuiuo_input{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    width:700px;
+    height:400px;
+    background:#fff;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_title{
+    width:100%;
+    height:38px;
+    line-height:38px;
+    text-indent:20px;
+    background:#f5f5f5;
+    color:#000;
+    font-size:16px;
+    position:relative;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_title span{
+    position: absolute;
+    right:20px;
+    top:0;
+    font-size:14px;
+    color:#444;
+    cursor:pointer;
+}
+
+.order_state_wancheng .tuihuo_info .tuihuo_row {
+    margin-top:15px;
+    margin-left:20px;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_title span:hover{
+    color:#999;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .left{
+    width:70px;
+    font-size:14px;
+}
+
+.order_state_wancheng .tuihuo_info .tuihuo_row i{
+    color:red;
+    font-style: normal;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .a{
+    width:156px;
+    height:35px;
+    position: relative;
+    cursor:pointer;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .a input{
+    width:156px;
+    height:34px;
+    border:1px solid #e5e5e5;
+    padding: 0;
+    margin: 0;
+    text-indent:1em;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .b{
+    position: absolute;
+    top:1px;
+    right:0;
+    background:#fdfdfd;
+    width:35px;
+    height:34px;
+    border-left:1px solid #e5e5e5;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .b_a{
+    position: absolute;
+    top:12px;
+    left:7px;
+    width:0;
+    height:0;
+    border:10px solid transparent;
+    border-top:10px solid #bfbfbf;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .tuihuoyuanyin{
+    position: absolute;
+    top:35px;
+    left:0;
+    width:156px;
+    border:1px solid #e5e5e5;
+    background:#fff;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .tuihuoyuanyin li{
+    line-height:2em;
+    text-align: center;
+    font-size:14px;
+}
+
+.order_state_wancheng .tuihuo_info .tuihuo_row .xuanxiang{
+    margin-left:335px;
+    font-size:14px;
+
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row.yuanyin{
+margin-bottom:40px;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .money_num{
+    width:156px;
+    height:35px;
+    border:1px solid #e5e5e5;
+    text-indent:1em;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .money_r{
+    vertical-align: text-top;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .text{
+    width:400px;
+    height:70px;
+    border:1px solid #e5e5e5;
+    padding:5px;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .tuikuan_file{
+    width:153px;
+    height:33px;
+    border:1px solid #e5e5e5;
+    background:#f5f5f5;
+    text-align: center;
+    line-height:33px;
+    font-size:14px;
+    cursor:pointer;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .tuikuan_file [type=file]{
+    display: none;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row  .tuikuan_file_title{
+    padding-left:20px;
+    font-size:14px;
+}
+.order_state_wancheng .tuihuo_info .tuihuo_row .right button{
+    width:100px;
+    height:35px;
+    background:#f29525;
+    text-align: center;
+    line-height: 35px;
+    color:#fff;
+    border-radius:5px;
+    border:none;
+}
+/******************************* 第十六块 我的订单 评价 开始 **************************************/
+.order_state_pingjia{
+    height:348px;
+}
+
+.order_state_pingjia .right{
+    float:right;
+    width:430px;
+    height:100%;
+    margin:0 58px;
+}
+
+.order_state_pingjia .right .top{
+    width:430px;
+    height:35px;
+}
+.order_state_pingjia .right .title{
+    margin-top:50px;
+    text-indent: 1em;
+}
+.order_state_pingjia .right .xingxing{
+    float: right;
+    width:100px;
+}
+.order_state_pingjia .right .xingxing i{
+    display: inline-block;
+    vertical-align: middle;
+    width:15px;
+    height:15px;
+    background:url(../img/icon_xx.png) no-repeat -82px 0;
+}
+.order_state_pingjia .right .xingxing i:hover,
+.order_state_pingjia .right .xingxing i.active{
+    background:url(../img/icon_xx.png) no-repeat 0 0;
+    cursor:pointer;
+}
+.order_state_pingjia .content textarea{
+    width:430px;
+    height:140px;
+    border:1px solid #e5e5e5;
+    padding:17px;
+    box-sizing:border-box;
+    color:#333;
+}
+.order_state_pingjia .btn{
+    width:430px;
+}
+.order_state_pingjia .btn [type=button]{
+    float:right;
+        width: 102px;
+        height: 35px;
+        background-color: #ffa130;
+        border-radius:3px;
+        color:#fff;
+        border:none;
+        cursor:pointer;
+        margin-top:22px;
+}
+
+.order_state_pingjia .left{
+    width:650px;
+    margin-top:42px;
+}
+.order_state_pingjia  .left .img{
+    width:100px;
+    height:100px;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+    margin-left:22px;
+}
+.order_state_pingjia  .left .img img{
+    width:100%;
+}
+.order_state_pingjia  .left .text{
+    font-size: 16px;
+    padding-left: 35px;
+}
+.order_state_pingjia  .left .text p{
+    line-height: 35px;
+    width:240px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color:#333;
+}
+.order_state_pingjia  .left .text p:nth-child(2){
+    font-size:14px;
+    color:#757575;
+}
+.order_state_pingjia  .left .text p:nth-child(3){
+    font-family: HiraginoSansGB-W3;
+	font-size: 22px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 36px;
+	letter-spacing: 0px;
+	color: #de0000;
+}
+/********************* 完成 ******************/

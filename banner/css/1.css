@@ -1,0 +1,806 @@
+body, html, * {
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+}
+
+/*页面通用样式*/
+
+a {
+    text-decoration: none;
+    color: #282828;
+}
+
+.wd {
+    width: 100%;
+    min-width: 1240px;
+    height: 100vh;
+    min-height: 650px;
+}
+
+/****************************************************************第一屏*/
+
+.a_bg {
+    max-width: 1600px;
+    min-height: 650px;
+    background: url(../img/a_bg_01.jpg) no-repeat center / 100%, #f8e620;
+}
+
+.a_search {
+    width: 1240px;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.22);
+    position: relative;
+    top: 37px;
+}
+
+.logo {
+    position: relative;
+    top: 0;
+    left: 34px;
+    bottom: 13px;
+}
+
+.a_nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 500px;
+    height: 60px;
+    font-size: 0;
+}
+
+.a_nav a {
+    display: inline-block;
+    line-height: 60px;
+    width: 95px;
+    color: #bcbcbc;
+    text-align: center;
+    font-size: 16px;
+}
+
+.a_nav a:nth-child(1) {
+    color: #444;
+}
+
+.a_nav a:hover {
+    color: #444;
+}
+
+/*第一屏文字内容*/
+
+.a_bg .a_centent {
+    width: 1240px;
+    position: relative;
+    background: url(../img/iphone_03.png) no-repeat bottom right / 35%;
+    height: 553px;
+    top: 37px;
+}
+
+.a_bg .a_centent_1 {
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.a_centent_1_text {
+    color: #282828;
+    padding-bottom: 5px;
+}
+
+.a_centent_1_text p:nth-child(1) {
+    font-size: 42px;
+}
+
+.a_centent_1_text p:nth-child(2) {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.a_centent_1_text p span {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+/*第一屏按钮*/
+
+.a_centent_1 .btn {
+    margin-top: 70px;
+}
+
+.a_centent_1 .btn a {
+    display: inline-block;
+    width: 130px;
+    line-height: 64px;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid #000;
+    padding-left: 50px;
+}
+
+.a_centent_1 .btn a:nth-child(1) {
+    background: url(../img/btn_03.png) no-repeat center left;
+}
+
+.a_centent_1 .btn a:nth-child(2) {
+    background: url(../img/btn_04.png) no-repeat center left;
+}
+
+.a_centent_1 .btn a:hover {
+    cursor: pointer;
+}
+
+/*轮播按钮*/
+
+.a_centent .a_spot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 130px;
+    height: 30px;
+    font-size: 0;
+}
+
+.a_centent .a_spot li {
+    list-style: none;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.a_centent .a_spot .active, .a_centent .a_spot li:hover {
+    background: none;
+    border: 2px solid #fff;
+}
+
+.a_centent .a_spot_1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+}
+
+.a_centent .a_spot_1 span {
+    position: absolute;
+    width: 30px;
+    line-height: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+}
+
+.a_centent .a_spot_1 span:first-child {
+    left: 0;
+}
+
+.a_centent .a_spot_1 span:last-child {
+    right: 0;
+}
+
+.a_centent .a_spot_1 span:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #bcbcbc;
+}
+
+/***********************************************************第二屏*/
+
+.b_centent {
+    width: 1240px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.b_centent_title {
+    position: relative;
+    line-height: 150px;
+}
+
+.b_centent_title p {
+    position: absolute;
+    background: #ccc;
+    width: 400px;
+    height: 2px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.b_centent_title h2 {
+    z-index: 1;
+    background: #fff;
+    width: 300px;
+}
+
+.b_centent_text {
+    width: 800px;
+    height: 80px;
+}
+
+/* 内容下面的左中右三栏部分 */
+
+.b_centent .wrap {
+    width: 1240px;
+}
+
+.b_centent .wrap>div {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    height: 400px;
+}
+
+/* 左边和右边布局是一样的 */
+
+.b_centent .wrap .right>div>h4, .b_centent .wrap .left>div>h4 {
+    padding-bottom: 10px;
+}
+
+.b_centent .wrap .right>div, .b_centent .wrap .left>div {
+    width: 270px;
+    height: 110px;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 90px;
+    margin: 15px auto;
+}
+
+/* 分开设置对应的图标 */
+
+.b_centent .left>div:first-child {
+    background: url(../img/1_20.jpg) no-repeat;
+}
+
+.b_centent .left>div:nth-child(2) {
+    background: url(../img/1_27.jpg) no-repeat;
+}
+
+.b_centent .left>div:nth-child(3) {
+    background: url(../img/1_33.jpg) no-repeat;
+}
+
+.b_centent .right>div:first-child {
+    background: url(../img/1_20.jpg) no-repeat;
+}
+
+.b_centent .right>div:nth-child(2) {
+    background: url(../img/1_27.jpg) no-repeat;
+}
+
+.b_centent .right>div:nth-child(3) {
+    background: url(../img/1_33.jpg) no-repeat;
+}
+
+/* 中间的iPhone图 */
+
+.b_centent .wrap .center {
+    background: url(../img/1_55.png) no-repeat top center;
+    position: relative;
+    bottom: -30px;
+}
+
+/***********************************************************第三屏*/
+
+.c_centent {
+    text-align: center;
+    background: #fafafa;
+}
+
+.c_centent_title {
+    position: relative;
+    line-height: 150px;
+}
+
+.c_centent_title p {
+    position: absolute;
+    background: #444;
+    width: 400px;
+    height: 2px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.c_centent_title h2 {
+    position: relative;
+    z-index: 1;
+    background: #fafafa;
+    width: 300px;
+}
+
+.c_centent_text {
+    width: 800px;
+    height: 80px;
+}
+
+.c_centent_img {
+    height: 370px;
+    font-size: 0;
+}
+
+.c_centent .c_centent_img .img {
+    display: inline-block;
+    width: 200px;
+    height: 500px;
+    background: url(../img/1_40.jpg) no-repeat center top / 180px;
+}
+
+.c_centent .c_centent_img .img:first-child, .c_centent .c_centent_img .img:last-child {
+    opacity: .5;
+}
+
+.c_spot {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.c_spot span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #d0d0d0;
+    background: #d0d0d0;
+    border-radius: 50%;
+}
+
+.c_spot .active, .c_spot span:hover {
+    border: 1px solid #222;
+    background: none;
+    cursor: pointer;
+}
+
+/**********************************************************第四屏*/
+
+.d_centent {
+    position: relative;
+    background: url(../img/1_43.jpg) no-repeat center, #f8e514;
+}
+
+.d_centent .d_centent_logo {
+    position: absolute;
+    right: 65px;
+    bottom: 30px;
+    width: 170px;
+    height: 70px;
+    background: url(../img/logo_with.png) no-repeat center;
+}
+
+/**********************************************************第五屏*/
+
+.e_centent {
+    text-align: center;
+    background: #fafafa;
+}
+
+.e_centent_title {
+    position: relative;
+    line-height: 150px;
+}
+
+.e_centent_title p {
+    position: absolute;
+    background: #444;
+    width: 400px;
+    height: 2px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.e_centent_title h2 {
+    position: relative;
+    z-index: 1;
+    background: #fafafa;
+    width: 300px;
+}
+
+.e_centent_text {
+    width: 800px;
+    height: 80px;
+}
+
+.e_centent_block {
+    height: 350px;
+    margin-top: 50px;
+}
+
+.e_centent_list {
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    height: 300px;
+    margin: 0 10px;
+}
+
+.e_centent_list .e_centent_item {
+    position: relative;
+    ;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    background: #ccc;
+}
+
+.e_centent_list:first-child .e_centent_item {
+    background: #f8e514;
+}
+
+.e_centent_item .text {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    padding: 20px 10px;
+}
+
+.e_centent_item .img {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    font-size: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.e_centent_item .img img {
+    margin: 10px 5px 20px;
+}
+
+.e_centent_list .title {
+    width: 220px;
+    height: 40px;
+    text-align: left;
+}
+
+.e_centent_list .title p {
+    color: #646464;
+}
+
+/**********************************************************第六屏*/
+
+.f_centent {
+    background: #fff;
+}
+
+.f_centent_img {
+    width: 50%;
+    height: 230px;
+    margin: 0 auto;
+    background: url(../img/1_55.jpg) no-repeat center;
+}
+
+.f_centent_text {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 22px;
+}
+
+.f_centent_cir {
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
+    line-height: 22px;
+}
+
+.f_centent_cir>div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #f7e327;
+    margin-top: 30px;
+}
+
+.f_centent_title {
+    width: 50%;
+    height: 50px;
+    text-align: center;
+}
+
+.f_centent_title h4 {
+    font-size: 36px;
+}
+
+.f_spot {
+    width: 100px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.f_spot span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #d0d0d0;
+    background: #d0d0d0;
+    border-radius: 50%;
+}
+
+.f_spot .active, .f_spot span:hover {
+    border: 1px solid #222;
+    background: none;
+    cursor: pointer;
+}
+
+/*****************************************************************第七屏*/
+
+.g_centent {
+    background: #fbe514;
+    position: relative;
+}
+
+.g_centent_title {
+    position: relative;
+    top: 50px;
+    line-height: 150px;
+}
+
+.g_centent_title p {
+    position: absolute;
+    background: #444;
+    width: 400px;
+    height: 2px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.g_centent_title h2 {
+    position: relative;
+    z-index: 1;
+    background: #fbe514;
+    width: 300px;
+    text-align: center;
+}
+
+.g_brank_logo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 0;
+    font-size: 0;
+    text-align: center;
+    opacity: .5;
+}
+
+/*****************************************************************第八屏*/
+
+.h_centent {
+    background: #fff;
+    border-bottom: 5px solid #f8e514;
+    overflow: hidden;
+}
+
+.h_centent_title {
+    position: relative;
+    line-height: 150px;
+}
+
+.h_centent_title p {
+    position: absolute;
+    background: #444;
+    width: 400px;
+    height: 2px;
+    top: 75px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.h_centent_title h2 {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    width: 300px;
+    text-align: center;
+}
+
+.h_centent_text {
+    width: 800px;
+    height: 80px;
+    text-align: center;
+}
+
+.h_centent_wrap {
+    width: 1240px;
+    height: 430px;
+}
+
+.h_centent_wrap>div {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.h_centent_wrap .left {
+    width: 570px;
+    height: 380px;
+}
+
+.h_centent_wrap .left input[type=text] {
+    border: none;
+    background: none;
+}
+
+.h_centent_wrap .left .input {
+    width: 100%;
+    padding-top: 30px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.h_centent_wrap .left .input span:first-child {
+    display: inline-block;
+    width: 20%;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.h_centent_wrap .left .input input {
+    width: 79%;
+    line-height: 50px;
+}
+
+.h_centent_wrap .left .message {
+    width: 100%;
+    line-height: 50px;
+    margin-top: 30px;
+    background: url(../img/1_66.png) no-repeat center left;
+    padding-left: 60px;
+}
+
+.h_centent_wrap .center {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 380px;
+}
+
+.h_centent_wrap .center a {
+    padding: 10px;
+}
+
+.h_centent_wrap .right {
+    width: 350px;
+    height: 430px;
+    background: url(../img/1_55.png) no-repeat bottom right / 70%;
+}
+
+/*****************************************************************第八屏*/
+
+.i_centent {}
+
+.i_centent_flex {
+    width: 1240px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.i_centent_flex>div {
+    margin-top: 100px;
+    width: 270px;
+    height: 230px;
+}
+
+.i_centent_1 p:first-child {
+    height: 63px;
+    margin-bottom: 30px;
+    background: url(../img/logo.png) no-repeat left;
+}
+
+.i_centent_2 div:first-child, .i_centent_3 div:first-child {
+    line-height: 63px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.i_centent_2 div:nth-child(2) {
+    width: 265px;
+    height: 46px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: solid 2px #252527;
+    opacity: 0.3;
+    background: url(../img/icon_09.png) no-repeat 95%;
+}
+
+.i_centent_2 div:nth-child(2) input {
+    width: 200px;
+    line-height: 46px;
+}
+
+.i_centent_2 p, .i_centent_1 p:last-child {
+    width: 236px;
+    height: 37px;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #282528;
+    opacity: 0.8;
+}
+
+.i_centent_3 ul {
+    list-style: none;
+}
+
+.i_centent_3 li {
+    display: inline-block;
+    width: 48%;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #282528;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.i_centent_4 {
+    position: relative;
+    font-family: OpenSans;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 24px;
+}
+
+.i_centent_4 .text {
+    position: absolute;
+    ;
+    bottom: 0;
+    width: 250px;
+    height: 109px;
+	font-size: 13px;
+	letter-spacing: 0px;
+	color: #282528;
+	opacity: 0.8;
+}
+
+.i_centent_4 .text>div:first-child {
+    width: 241px;
+    padding: 0 10px;
+    margin: 10px auto;
+    border-left: 1px solid #f8e514;
+}
+.i_centent_4 .text>div:first-child span{
+    display: inline-block;
+    border-bottom:1px solid #f8e514; 
+}
+.i_centent_4 .text > p{
+    width: 250px;
+	height: 109px;
+	font-family: OpenSans;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #282528;
+	opacity: 0.8;
+}

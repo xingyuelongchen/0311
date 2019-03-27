@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/head.css" rel="stylesheet" type="text/css">
+    <link href="css/userCenter.css" rel="stylesheet" type="text/css">
+    <link href="css/footer.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- 头部块 -->
+    <div class="head">
+        <div class="head_top">
+            <!----未登录状态为login_state默认内容-->
+            <div class="w12 head_top_nav login_state">
+                <span id="loign">
+                    <a href="#">[注册]</a>
+                    <a href="#">[登陆]</a>
+                </span>
+                <span class="text_hover">我的账号</span>
+                <span class="phone text_hover">生活一家APP下载</span>
+            </div>
+            <!---登录后展示login_state_ok的内容-->
+            <div class="w12 login_state_ok my_after">
+                <div class="top_login_left">
+                    Hi<span class="login_name">牵着蜗牛狂飙</span>
+                    <span class="login_icon_vip"></span>
+                </div>
+                <div class="top_login_right">
+                    <a href="#">我的生活一家</a>|
+                    <a href="#">收藏夹</a>|
+                    <a href="#">生活一家APP下载</a>
+                </div>
+            </div>
+        </div>
+        <div class="head_center w12">
+            <div class="head_center_logo">
+                <h1><a href="#"><img src="img/logo.png"></a></h1>
+            </div>
+            <div class="head_center_city">
+                <div class="city_active text_hover" id="city_btn">广州</div>
+                <!-- 这个是导航栏城市选择弹出框 -->
+                <div class="city_list" id="city_list"></div>
+            </div>
+            <div class="head_center_search">
+                <input type="button" value="搜索">
+                <input type="text" placeholder="手机开抢">
+
+            </div>
+            <div class="head_center_btn">
+                <a href="#">一键客服</a>
+                <a href="">购物车</a>
+            </div>
+        </div>
+        <div class="head_nav">
+            <div class="w12">
+                <a href="#">首页</a>
+                <a href="#">精彩生活</a>
+                <a href="#">生活食品</a>
+                <a href="#">生活用品</a>
+                <a href="#">生活家居</a>
+                <a href="#">会员杂锦</a>
+                <a href="#">关于我们</a>
+            </div>
+        </div>
+    </div>
+    <!-- 内容块 -->
+    <div class="w12 wrap clearfix ">
+        <!-- 侧边栏 -->
+        <div id="wrap_left" class="wrap_left">
+            <ul id="wrap_left">
+                <li>基本资料</li>
+                <li>升级会员</li>
+                <li>我的订单</li>
+                <li>我的钱包</li>
+                <li>我的收藏</li>
+                <li>收货地址</li>
+                <li>帮助中心</li>
+                <li>意见反馈</li>
+            </ul>
+        </div>
+        <!-- 右边内容 -->
+        <!----第一块 默认显示的综合内容-->
+        <div class="wrap_right">
+            <div class="wrap_right clearfix">
+                <div class="user_info border">
+                    <div class="user_img"></div>
+                    <div class="icon"></div>
+                    <div class="title">
+                        <h2>骑着蜗牛狂飙 <span>VIP 会员</span></h2>
+                        <p>广州市 天河区 东圃时代TIT广场430 <a href="#">[修改]</a></p>
+                    </div>
+                </div>
+                <div class="user_card border">
+                    <p>我的余额</p>
+                    <p>￥88.54</p>
+                </div>
+            </div>
+            <div class="wrap_right otitle">
+                <div class="right hover">更多</div>
+                <div class="order">我的订单</div>
+            </div>
+            <div class="wrap_right border">
+                <div class="orderlist_title border">
+                    订单编号：SHYJ125203
+                </div>
+                <div class="orderlist_row">
+                    <div class="orderlist_row_item clearfix">
+                        <div class="col col_img">
+                            <img src="img/ad1.png">
+                        </div>
+                        <div class="col col_text">
+                            百草味 夏威夷果200g*3袋奶油味夏威夷果百草味 夏威夷果200g*3袋奶油味夏威夷果
+
+
+                        </div>
+                        <div class="col col_num">
+                            x2
+                        </div>
+                        <div class="col col_pay">
+                            <div>￥158</div>
+                            <div>在线支付</div>
+                        </div>
+                        <div class="col col_info">
+                            <div>等待付款</div>
+                            <div>订单详情</div>
+                        </div>
+                        <div class="col col_btn">立即付款</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="wrap_right otitle">
+                <div class="right hover">更多</div>
+                <div class="order">我的收藏</div>
+            </div>
+            <div class="wrap_right shoucang clearfix ">
+                <div class="shoucang_item ">
+                    <div class="shoucang_img  my_after hover">
+                        <img src="img/ad5.png">
+                    </div>
+                    <div class="shoucang_text hover">
+                        <p>同仁堂牌 枸杞子枸杞王500g</p>
+                        <p>
+                            <span class="dazhe">￥59</span>
+                            <span class="yuanjia">￥79</span>
+                        </p>
+                    </div>
+                    <div class="shoucang_btn border my_icon_shoping hover">加入购物车</div>
+                </div>
+                <div class="shoucang_item ">
+                    <div class="shoucang_img  my_after hover">
+                        <img src="img/ad2.png">
+                    </div>
+                    <div class="shoucang_text hover">
+                        <p>同仁堂牌 枸杞子枸杞王500g</p>
+                        <p>
+                            <span class="dazhe">￥59</span>
+                            <span class="yuanjia">￥79</span>
+                        </p>
+                    </div>
+                    <div class="shoucang_btn border my_icon_shoping hover">加入购物车</div>
+                </div>
+                <div class="shoucang_item ">
+                    <div class="shoucang_img  my_after hover">
+                        <img src="img/ad3.png">
+                    </div>
+                    <div class="shoucang_text hover">
+                        <p>同仁堂牌 枸杞子枸杞王500g</p>
+                        <p>
+                            <span class="dazhe">￥59</span>
+                            <span class="yuanjia">￥79</span>
+                        </p>
+                    </div>
+                    <div class="shoucang_btn border my_icon_shoping hover">加入购物车</div>
+                </div>
+                <div class="shoucang_item ">
+                    <div class="shoucang_img  my_after hover">
+                        <img src="img/ad4.png">
+                    </div>
+                    <div class="shoucang_text hover">
+                        <p>同仁堂牌 枸杞子枸杞王500g</p>
+                        <p>
+                            <span class="dazhe">￥59</span>
+                            <span class="yuanjia">￥79</span>
+                        </p>
+                    </div>
+                    <div class="shoucang_btn border my_icon_shoping hover">加入购物车</div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 第二块 个人中心资料修改 -->
+        <div class="wrap_right none">
+            <div class="user border">
+                <div class="user_title">个人资料</div>
+                <div class="user_img clearfix">
+                    <div class="img_title">头像：</div>
+                    <div class="image">
+                        <img src="img/ren.png" alt="">
+                        <div class="img_btn">
+                            编辑头像
+                        </div>
+                    </div>
+
+                </div>
+                <div class="info_input my_after">
+                    <span>姓名：</span>
+                    <input type="text" placeholder="骑着蜗牛狂飙">
+                </div>
+                <div class="info_state">昵称长度不能超过8个字</div>
+                <div class="info_input my_after">
+                    <span>联系方式：</span>
+                    <input type="text" placeholder="13634578923">
+                </div>
+                <button class="btn"></button>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li class="my_after">
+                        <span class="title">修改密码:</span>
+                        <span class="text">经常的更换您的账号密码，并且不要和其他账号共用同一个密码</span>
+                        <span class="btn">修改</span>
+                    </li>
+                    <li class="my_after">
+                        <span class="title">修改钱包密码:</span>
+                        <span class="text">经常的更换您的账号密码，并且不要和其他账号共用同一个密码</span>
+                        <span class="btn">修改</span>
+                    </li>
+                    <li class="my_after">
+                        <span class="title">我能供应:</span>
+                        <span class="text">上传您能提供的商品，我们会马上联系您哦！</span>
+                        <span class="btn">修改</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 第三块 密码修改 -->
+        <div class="wrap_right none">
+            <div class="change_title">修改密码</div>
+            <div class="change_input">
+                <ul>
+                    <li class="my_after">
+                        <span>当前密码：</span>
+                        <input type="text" placeholder="请输入密码">
+                    </li>
+                    <li class="my_after">
+                        <span>新密码：</span>
+                        <input type="text" placeholder="请输入新密码">
+                    </li>
+                    <li class="my_after">
+                        <span>确认密码：</span>
+                        <input type="text" placeholder="请再次输入密码">
+
+                    </li>
+                    <li class="info_state">注意：密码不得填空格，可由英文字母和数字组成</li>
+                    <li>
+                        <div class="btn"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 第四块 我能供应 -->
+        <div class="wrap_right none">
+            <div class="change_title">我能供应</div>
+            <div class="change_input gongying">
+                <ul>
+                    <li class="my_after">
+                        <span>行业类型：</span>
+                        <input type="text" placeholder="">
+                    </li>
+                    <li class="my_after">
+                        <span>我能供应：</span>
+                        <input type="text" placeholder="">
+                    </li>
+                    <li>
+                        <textarea placeholder="描述：" class="miaoshu border"></textarea>
+
+                    </li>
+                    <li>
+                        <div style="font-size:14px;margin-bottom:15px;">图片：</div>
+                        <div id="file_btn" class="file border">+
+                            <input type="file" id="file_input">
+                            <script>
+                                document.getElementById('file_btn').onclick = function () {
+                                    document.getElementById('file_input').click();
+                                }
+                            </script>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 第五块 修改钱包密码 -->
+        <div class="wrap_right none">
+            <div class="change_title">修改密码</div>
+            <div class="change_input pay">
+                <ul>
+                    <li class="my_after">
+                        <span>新密码：</span>
+                        <input type="text" placeholder="请输入密码">
+                    </li>
+                    <li class="my_after">
+                        <span>确认密码：</span>
+                        <input type="text" placeholder="请再次输入密码">
+                    </li>
+                    <li class="my_after">
+                        <span>手机号码：</span>
+                        <input type="text" placeholder="请输入手机号码">
+                    </li>
+                    <li class="my_after yz">
+                        <span>验证码：</span>
+                        <input type="text" placeholder="请输入验证码">
+                        <span class="phone_yz">
+                            获取验证码
+                        </span>
+                    </li>
+                    <li class="info_state">注意：密码不得填空格，可由英文字母和数字组成</li>
+                    <li>
+                        <div class="btn"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 第七块 我的等级 -->
+        <div class="wrap_right vip none">
+            <div class="change_title">我的等级</div>
+            <div class="vip_text">
+                <p> 会员等级说明</p>
+                <p>说明文字说明文字说明文字说明文字说明文<p>
+                        <p>说明文字说明文字</p>
+                        <div class="btn">充值</div>
+            </div>
+            <div class="vip_list my_after">
+                <div class="vip_list_itme">
+                    <ol type="1">
+                        <li>说明文字</li>
+                        <li>说明文字说明文字</li>
+                        <li>说明文字</li>
+                        <li>说明文字说明文字说明文字</li>
+                        <li>说明文字</li>
+                    </ol>
+                </div>
+                <div class="vip_list_itme">
+                    <ol type="1">
+                        <li>说明文字</li>
+                        <li>说明文字说明文字</li>
+                        <li>说明文字</li>
+                        <li>说明文字说明文字说明文字</li>
+                        <li>说明文字</li>
+                    </ol>
+                </div>
+                <div class="vip_list_itme">
+                    <ol type="1">
+                        <li>说明文字</li>
+                        <li>说明文字说明文字</li>
+                        <li>说明文字</li>
+                        <li>说明文字说明文字说明文字</li>
+                        <li>说明文字</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!-- 第九块 我的钱包-->
+        <div class="wrap_right card border none">
+            <div class="card_title my_after">
+                <div class="active">我的钱包</div>
+                <div>账单</div>
+            </div>
+            <div class="card_list">
+                <div class="card_list_item none" >
+                    <div class="card_list_item_a border">
+                        <div class="text">
+                            <p class="notes">我的余额</p>
+                            <p>￥88.50</p>
+                        </div>
+                    </div>
+                    <div class="card_list_item_b border">
+                        <div class="alipay">支付宝</div>
+                    </div>
+                    <div class="btn">充值</div>
+                </div>
+                <div class="card_list_item zhangdan">
+                    <div class="time">
+                        <div class="month">
+                            <div class="month_text"><i></i><span>9月</span></div>
+                            <div class="day my_after">
+                                <em></em>
+                                <i></i>
+                                <div class="day_text">
+                                    <p class="day_title">充值</p>
+                                    <p class="day_time">2015-9-15 14:32</p>
+                                </div>
+                                <div class="day_money">
+                                    +150
+                                </div>
+                            </div>
+                            <div class="day my_after">
+                                <em></em>
+                                <i></i>
+                                <div class="day_text">
+                                    <p class="day_title">充值</p>
+                                    <p class="day_time">2015-9-10 10:25</p>
+                                </div>
+                                <div class="day_money">
+                                    +300
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <div class="month">
+                            <div class="month_text"><i></i><span>8月</span></div>
+                            <div class="day my_after">
+                                <em></em>
+                                <i></i>
+                                <div class="day_text">
+                                    <p class="day_title">充值</p>
+                                    <p class="day_time">2015-8-15 14:45</p>
+                                </div>
+                                <div class="day_money">
+                                    +150
+                                </div>
+                            </div>
+                            <div class="day my_after">
+                                <em></em>
+                                <i></i>
+                                <div class="day_text">
+                                    <p class="day_title">充值</p>
+                                    <p class="day_time">2015-8-18 19:25</p>
+                                </div>
+                                <div class="day_money">
+                                    +200
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第十块 我的收藏-->
+        <div class="wrap_right collection none">
+            <div class="change_title">我的收藏</div>
+            <div class="collection_list">
+                <div class="collection_list_title my_after">
+                    <div class="check my_after">
+                        <i class="active"></i> <span>全选</span><a href="#">删除</a> </div>
+                    <div class="title">商品详情</div>
+                    <div class="unit">单价(元)</div>
+                    <div class="other">操作</div>
+                </div>
+                <ul class="collection_list_item">
+                    <li class="my_after">
+
+                        <div class="title my_after">
+                            <i class="active"></i>
+                            <div class="img">
+                                <img src="img/ad3.png" alt="">
+                            </div>
+                            <div class="text">
+                                百草味 夏威夷果200g*3袋奶油味 夏威夷果
+                            </div>
+                        </div>
+                        <div class="unit border">
+                            ￥158.00
+                        </div>
+                        <div class="other">
+                            <a href="#">删除</a>
+                        </div>
+                    </li>
+                    <li class="my_after">
+
+                        <div class="title my_after">
+                            <i class=""></i>
+                            <div class="img">
+                                <img src="img/ad3.png" alt="">
+                            </div>
+                            <div class="text">
+                                百草味 夏威夷果200g*3袋奶油味 夏威夷果
+                            </div>
+                        </div>
+                        <div class="unit border">
+                            ￥158.00
+                        </div>
+                        <div class="other">
+                            <a href="#">删除</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 第十一块 收货地址 和 添加新地址-->
+        <div class="wrap_right address none">
+            <div class="change_title">收货地址</div>
+            <div class="address_list clearfix">
+                <div class="address_list_item my_after active">
+                    <div class="a">
+                        <p>广东广州（庞少军收）<span>13578920235</span></p>
+                        <p>天河车陂东圃大马路8号时代TIT广场A座4楼430
+                        </p>
+                    </div>
+                    <div class="b">
+                        <a href="#">修改</a>
+                        |
+                        <a href="#">删除</a>
+                    </div>
+                </div>
+                <div class="address_list_item my_after">
+                    <div class="a">
+                        <p>广东广州（庞少军收）</p>
+                        <p>天河车陂东圃大马路8号时代TIT广场A座4楼430
+                        </p>
+                    </div>
+                    <div class="b">
+                        <a href="#">修改</a>
+                        |
+                        <a href="#">删除</a>
+                    </div>
+                </div>
+            </div>
+            <div class="address_add">
+
+                +添加地址
+            </div>
+            <!--添加地址的全局弹窗-->
+            <div class="address_popup">
+                <div class="popup_window">
+                    <div class="popup_title">使用新地址 </div>
+                    <div class="popup_state"><span>新增收货地址</span> 电话号码、手机号选填一项,其余均为必填项 </div>
+                    <div class="popup_input">
+                        <ul>
+                            <li class="my_after">
+                                <div class="text">收货人姓名</div>
+                                <div class="input">
+                                    <input type="text" placeholder="长度不超过25个字符">
+                                </div>
+                            </li>
+                            <li class="my_after">
+                                <div class="text">手机号码<i>*</i></div>
+                                <div class="input">
+                                    <select>
+                                        <option id="tel">中国大陆+86</option>
+                                    </select>
+                                    <input class="tel" type="text" placeholder="长度不超过25个字符">
+                                </div>
+                            </li>
+                            <li class="my_after">
+                                <div class="text">所在城市<i>*</i></div>
+                                <div class="input">
+
+                                    <select id="city">
+                                        <option>中国大陆</option>
+                                    </select>
+                                    <input class="dizhi" type="text" placeholder="长度不超过25个字符">
+                                </div>
+                            </li>
+                            <li class="my_after">
+                                <div class="text">详细地址<i>*</i></div>
+                                <div class="input">
+                                    <textarea name="" id="" cols="30" rows="10"
+                                        placeholder="建议你如实填写的的信息，如街道门牌号..."></textarea>
+                                </div>
+                            </li>
+                            <li class="my_after">
+                                <div class="text"></div>
+                                <div class="input check "><input type="checkbox">设置为默认收货地址</div>
+                            </li>
+                            <li class="my_after">
+                                <div class="text"></div>
+                                <div class="input btn">保存</div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---第十二块 帮助中心-->
+        <div class="wrap_right help none">
+            <div class="change_title">帮助中心</div>
+            <div class="help_title"></div>
+            <div class="help_content border">
+                <div class="title">常见问题</div>
+                <div class="help_right">
+                    <div class="help_right_content">
+                        <div class="help_icon"></div>
+                        <div class="">周一至周五 8:00-6:00</div>
+                        <div class="">4000-8888-08</div>
+                        <div class="help_btn"></div>
+                    </div>
+                </div>
+                <ol class="help_list">
+                    <li class="help_list_item">
+                        <i></i>
+                        <p>如何修改地址</p>
+                        <p>答：在个人中心-送货地址可修改详细地址</p>
+                    </li>
+                    <li class="help_list_item">
+                        <i></i>
+                        <p>如何修改地址</p>
+                        <p>答：在个人中心-送货地址可修改详细地址</p>
+                    </li>
+                    <li class="help_list_item">
+                        <i></i>
+                        <p>如何修改地址</p>
+                        <p>答：在个人中心-送货地址可修改详细地址</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!---第十三块 意见反馈-->
+        <div class="wrap_right feedback none">
+            <div class="change_title">意见反馈</div>
+            <div class="fedback_title"></div>
+            <div class="feedback_input">
+                <textarea name="" id=""></textarea>
+                <div class="feedback_btn"></div>
+            </div>
+        </div>
+        <!---第十五块 我的订单列表 -->
+        <div class="wrap_right order_lists none">
+            <div class="order_lists_nav my_after">
+                <div class="lists_title">我的订单</div>
+                <ul class="clearfix">
+                    <li class="active">待付款</li>
+                    <li>待发货</li>
+                    <li>待收货</li>
+                    <li>已完成</li>
+                    <li>退货/售后</li>
+                </ul>
+            </div>
+            <div class="order_lists_nav_name border">
+                <div class="order_list_title my_after border">
+                    <div class="title">商品</div>
+                    <div class="number">数量</div>
+                    <div class="unit">单价(元)</div>
+                    <div class="state">交易状态</div>
+                    <div class="total">交易操作</div>
+                </div>
+            </div>
+            <div class="page my_after">
+                <i class="up_left">&lt;</i>
+                <span>上一页</span>
+                <span>下一页</span>
+                <i class="out_right active">&gt;</i>
+            </div>
+            <div class="orders_list">
+                <!--待付款订单-->
+                <div class="order_lists_item none">
+                    <div class="orderlist_row">
+                        <div class="order_title clearfix">
+                            <div class="order_number">订单编号：SHYJ125203</div>
+                            <div class="order_del">
+                                <i></i>
+                            </div>
+                        </div>
+                        <div class="orderlist_row_item clearfix">
+                            <div class="col col_img">
+                                <img src="img/ad1.png">
+                            </div>
+                            <div class="col col_text">
+                                百草味 夏威夷果200g*3袋奶油味夏威夷果百草味 夏威夷果200g*3袋奶油味夏威夷果
+                            </div>
+                            <div class="col col_num">
+                                x2
+                            </div>
+                            <div class="col col_pay">
+                                <div class="total">￥158.00</div>
+                                <div class="">在线支付</div>
+                            </div>
+                            <div class="col col_info">
+                                <div>等待付款</div>
+                                <div>订单详情</div>
+                            </div>
+                            <div class="col btn">
+                                <div class="fukuan">立即付款</div>
+                                <div class="quxiao">取消订单</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="orderlist_row">
+                        <div class="order_title clearfix">
+                            <div class="order_number">订单编号：SHYJ125203</div>
+                            <div class="order_del">
+                                <i></i>
+                            </div>
+                        </div>
+                        <div class="orderlist_row_item clearfix">
+                            <div class="col col_img">
+                                <img src="img/ad1.png">
+                            </div>
+                            <div class="col col_text">
+                                百草味 夏威夷果200g*3袋奶油味夏威夷果百草味 夏威夷果200g*3袋奶油味夏威夷果
+                            </div>
+                            <div class="col col_num">
+                                x2
+                            </div>
+                            <div class="col col_pay">
+                                <div class="total">￥158.00</div>
+                                <div class="">在线支付</div>
+                            </div>
+                            <div class="col col_info">
+                                <div>等待付款</div>
+                                <div>订单详情</div>
+                            </div>
+                            <div class="col btn">
+                                <div class="fukuan">立即付款</div>
+                                <div class="quxiao">取消订单</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--待发货订单-->
+                <div class="order_lists_item none">
+                    <div class="orderlist_row">
+                        <div class="order_title clearfix">
+                            <div class="order_number">订单编号：SHYJ125203</div>
+                            <div class="order_del">
+                                <i></i>
+                            </div>
+                        </div>
+                        <div class="orderlist_row_item clearfix">
+                            <div class="col col_img">
+                                <img src="img/ad1.png">
+                            </div>
+                            <div class="col col_text">
+                                百草味 夏威夷果200g*3袋奶油味夏威夷果百草味 夏威夷果200g*3袋奶油味夏威夷果
+                            </div>
+                            <div class="col col_num">
+                                x2
+                            </div>
+                            <div class="col col_pay">
+                                <div class="total">￥158.00</div>
+                                <div class="">在线支付</div>
+                            </div>
+                            <div class="col col_info">
+                                <div>待发货</div>
+                                <div>订单详情</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="orderlist_row">
+                            <div class="order_title clearfix">
+                                <div class="order_number">订单编号：SHYJ125203</div>
+                                <div class="order_del">
+                                    <i></i>
+                                </div>
+                            </div>
+                            <div class="orderlist_row_item clearfix">
+                                <div class="col col_img">
+                                    <img src="img/ad1.png">
+                                </div>
+                                <div class="col col_text">
+                                    百草味 夏威夷果200g*3袋奶油味夏威夷果百草味 夏威夷果200g*3袋奶油味夏威夷果
+                                </div>
+                                <div class="col col_num">
+                                    x2
+                                </div>
+                                <div class="col col_pay">
+                                    <div class="total">￥158.00</div>
+                                    <div class="">在线支付</div>
+                                </div>
+                                <div class="col col_info">
+                                    <div>待发货</div>
+                                    <div>订单详情</div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <!--待收货订单-->
+                <div class="order_lists_item none">
+                    <div class="orderlist_row">
+                        <div class="order_title clearfix">
+                            <div class="order_number">订单编号：SHYJ125203</div>
+                            <div class="order_del">
+                                <i></i>
+                            </div>
+                        </div>
+                        <div class="orderlist_row_item clearfix">
+                            <div class="col col_img">
+                                <img src="img/ad1.png">
+                            </div>
+                            <div class="col col_text">
+                                百草味 夏威夷果200g*3袋奶油味夏威夷果百草味 夏威夷果200g*3袋奶油味夏威夷果
+                            </div>
+                            <div class="col col_num">
+                                x2
+                            </div>
+                            <div class="col col_pay">
+                                <div class="total">￥158.00</div>
+                                <div class="">在线支付</div>
+                            </div>
+                            <div class="col col_info">
+                                <div>待收货</div>
+                                <div>订单详情</div>
+                            </div>
+                            <div class="col btn">
+                                <div class="shouhuo">确认收货</div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <!--已完成订单-->
+                <div class="order_lists_item none">
+                    <div class="orderlist_row">
+                        <div class="order_title clearfix">
+                            <div class="order_number">订单编号：SHYJ125203</div>
+                            <div class="order_del">
+                                <i></i>
+                            </div>
+                        </div>
+                        <div class="orderlist_row_item clearfix">
+                            <div class="col col_img">
+                                <img src="img/ad1.png">
+                            </div>
+                            <div class="col col_text">
+                                百草味 夏威夷果200g*3袋奶油味夏威夷果百草味 夏威夷果200g*3袋奶油味夏威夷果
+                            </div>
+                            <div class="col col_num">
+                                x2
+                            </div>
+                            <div class="col col_pay">
+                                <div class="total">￥158.00</div>
+                                <div class="">在线支付</div>
+                            </div>
+                            <div class="col col_info">
+                                <div>已完成</div>
+                                <div>订单详情</div>
+                            </div>
+                            <div class="col btn">
+                                <div class="pingjia">去评价</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="orderlist_row">
+                        <div class="order_title clearfix">
+                            <div class="order_number">订单编号：SHYJ125203</div>
+                            <div class="order_del">
+                                <i></i>
+                            </div>
+                        </div>
+                        <div class="orderlist_row_item clearfix">
+                            <div class="col col_img">
+                                <img src="img/ad1.png">
+                            </div>
+                            <div class="col col_text">
+                                百草味 夏威夷果200g*3袋奶油味夏威夷果百草味 夏威夷果200g*3袋奶油味夏威夷果
+                            </div>
+                            <div class="col col_num">
+                                x2
+                            </div>
+                            <div class="col col_pay">
+                                <div class="total">￥158.00</div>
+                                <div class="">在线支付</div>
+                            </div>
+                            <div class="col col_info">
+                                <div>已完成</div>
+                                <div>订单详情</div>
+                            </div>
+                            <div class="col btn">
+                                <div class="pingjia">去评价</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--退货售后订单-->
+                <div class="order_lists_item none">
+                        <div class="orderlist_row">
+                            <div class="order_title clearfix">
+                                <div class="order_number">订单编号：SHYJ125203</div>
+                                <div class="order_del">
+                                    <i></i>
+                                </div>
+                            </div>
+                            <div class="orderlist_row_item clearfix">
+                                <div class="col col_img">
+                                    <img src="img/ad1.png">
+                                </div>
+                                <div class="col col_text">
+                                    百草味 夏威夷果200g*3袋奶油味夏威夷果百草味 夏威夷果200g*3袋奶油味夏威夷果
+                                </div>
+                                <div class="col col_num">
+                                    x2
+                                </div>
+                                <div class="col col_pay">
+                                    <div class="total">￥158.00</div>
+                                    <div class="">在线支付</div>
+                                </div>
+                                <div class="col col_info">
+                                    <div>已完成</div>
+                                    <div>订单详情</div>
+                                </div>
+                                <div class="col btn tuikuan">
+                                   退款中
+                                </div>
+                            </div>
+                        </div>
+                        <div class="orderlist_row">
+                            <div class="order_title clearfix">
+                                <div class="order_number">订单编号：SHYJ125203</div>
+                                <div class="order_del">
+                                    <i></i>
+                                </div>
+                            </div>
+                            <div class="orderlist_row_item clearfix">
+                                <div class="col col_img">
+                                    <img src="img/ad1.png">
+                                </div>
+                                <div class="col col_text">
+                                    百草味 夏威夷果200g*3袋奶油味夏威夷果百草味 夏威夷果200g*3袋奶油味夏威夷果
+                                </div>
+                                <div class="col col_num">
+                                    x2
+                                </div>
+                                <div class="col col_pay">
+                                    <div class="total">￥158.00</div>
+                                    <div class="">在线支付</div>
+                                </div>
+                                <div class="col col_info">
+                                    <div>已完成</div>
+                                    <div>订单详情</div>
+                                </div>
+                                <div class="col btn  tuikuan">
+                                        退款中
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 提示信息块 -->
+    <div class="state">
+        <!-- 第六块 充值成功 -->
+        <div class="w12 border recharge  none">
+            <div class="recharge_text">
+                <div class="recharge_ok">
+                    恭喜您成为VIP会员！
+                </div>
+                <div class="recharge_blank">
+                    <span class="num">5</span>秒
+                    <a href="#">自动返回>></a>
+                </div>
+            </div>
+        </div>
+        <!-- 第八块 升级会员 -->
+        <div class="w12 up_vip none">
+            <div class="pay_state">
+                <p>当前订单状态： 宝贝已拍下， 请在24小时 内付款；若未及时付款，系统将自动取消订单
+                </p>
+                <p>
+                    <span class="up_pay">立即付款</span>
+                    <span class="out_pay">取消订单</span>
+                </p>
+            </div>
+            <div class="pay_info border">
+                <div class="pay_info_title">商品信息</div>
+                <div class="order_list_title my_after border">
+                    <div class="title">宝贝</div>
+                    <div class="guige">规格</div>
+                    <div class="number">数量</div>
+                    <div class="unit">单价(元)</div>
+                    <div class="state">订单状态</div>
+                    <div class="total">商品总价</div>
+                </div>
+                <ul>
+                    <li class="order_list_item my_after">
+                        <div class="title my_after">
+                            <div class="img"><img src="img/zhuan.png" alt=""></div>
+                            <div class="text">升级成为VIP会员</div>
+                        </div>
+                        <div class="guige">期限为一年</div>
+                        <div class="number">1</div>
+                        <div class="unit">
+                            <div>￥100</div>
+                            <div class="notes">在线支付</div>
+                        </div>
+                        <div class="state">待付款</div>
+                        <div class="total">
+                            <div>￥100</div>
+                            <div class="notes">（运费： ￥0）</div>
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="totals">
+                    订单总价 : <span>￥<i>158</i></span>元
+                </div>
+            </div>
+        </div>
+        <!-- 第十五块 我的订单 待付款状态  -->
+        <div class="w12 order_state order_state_fukuan none">
+            <div class="order_state_info">
+                <div>当前订单状态： 宝贝已拍下， 请在3天 内付款；若未及时付款，系统将自动取消订单</div>
+                <div class="order_state_info_btn">
+                    <span class="fukuan">立即付款</span>
+                    <span class="quxiao">取消订单</span>
+                </div>
+            </div>
+            <div class="order_info border">
+                <div class="info_title">订单信息</div>
+                <div class="info_address">
+                    <p>
+                        <span class="title"> 收货地址：</span>
+                        <span>
+                            庞少军，86-13751893217，广东省 广州市 天河区 车陂街道 广州市天河区东圃大马路8号时代TIT广场4楼430 ，000000
+                        </span>
+                    </p>
+                    <p>
+                        <span class="title">订单编号：</span>
+                        <span>SKYJ12525441</span>
+                    </p>
+                    <p>
+                        <span class="title">创建时间：</span>
+                        <span>2015-10-02 12:20</span>
+                    </p>
+                    <p>
+                        <span class="title">备注：</span>
+                        <span><textarea></textarea></span>
+                    </p>
+                </div>
+            </div>
+            <div class="order_list">
+                <div class="pay_info border">
+                    <div class="pay_info_title">商品信息</div>
+                    <div class="order_list_title my_after border">
+                        <div class="title">宝贝</div>
+                        <div class="guige">规格</div>
+                        <div class="number">数量</div>
+                        <div class="unit">单价(元)</div>
+                        <div class="state">订单状态</div>
+                        <div class="total">商品总价</div>
+                    </div>
+                    <ul>
+                        <li class="order_list_item my_after">
+                            <div class="title my_after">
+                                <div class="img"><img src="img/ad3.png" alt=""></div>
+                                <div class="text">百草味 夏威夷果200g*3袋奶油</div>
+                            </div>
+                            <div class="guige">规格：600g</div>
+                            <div class="number">x2</div>
+                            <div class="unit">
+                                <div>￥158</div>
+                                <div class="notes">在线支付</div>
+                            </div>
+                            <div class="state">待付款</div>
+                            <div class="total">
+                                <div>￥316</div>
+                                <div class="notes">（运费： ￥10）</div>
+                            </div>
+                        </li>
+                        <li class="order_list_item my_after">
+                            <div class="title my_after">
+                                <div class="img"><img src="img/ad3.png" alt=""></div>
+                                <div class="text">百草味 夏威夷果200g*3袋奶油</div>
+                            </div>
+                            <div class="guige">规格：600g</div>
+                            <div class="number">x2</div>
+                            <div class="unit">
+                                <div>￥158</div>
+                                <div class="notes">在线支付</div>
+                            </div>
+                            <div class="state">待付款</div>
+                            <div class="total">
+                                <div>￥316</div>
+                                <div class="notes">（运费： ￥10）</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="totals">
+                        订单总价 : <span>￥<i>652</i></span>元
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第十五块 我的订单 待发货状态  -->
+        <div class="w12 order_state order_state_fahuo none">
+            <div class="order_state_info">
+                <div>当前订单状态： 商品正在打包发货，请耐心等候~
+                    </div>
+                <div class="order_state_info_btn none">
+                    <span class="fukuan">立即付款</span>
+                    <span class="quxiao">取消订单</span>
+                </div>
+            </div>
+            
+            <div class="order_info">
+                
+            <div class="info_title">订单信息</div>
+                <div class="info_address  border">
+                    <p>
+                        <span class="title"> 收货地址：</span>
+                        <span>
+                            庞少军，86-13751893217，广东省 广州市 天河区 车陂街道 广州市天河区东圃大马路8号时代TIT广场4楼430 ，000000
+                        </span>
+                    </p>
+                    <p>
+                        <span class="title">订单编号：</span>
+                        <span>SKYJ12525441</span>
+                    </p>
+                    <p>
+                        <span class="title">创建时间：</span>
+                        <span>2015-10-02 12:20</span>
+                    </p>
+                    <p>
+                        <span class="title">付款时间：</span>
+                        <span>2015-10-02 12:21</span>
+                    </p>
+                    <p>
+                        <span class="title">备注：</span>
+                        <span><textarea></textarea></span>
+                    </p>
+                </div>
+            </div>
+            <div class="order_list">
+                <div class="pay_info border">
+                    <div class="pay_info_title">商品信息</div>
+                    <div class="order_list_title my_after border">
+                        <div class="title">宝贝</div>
+                        <div class="guige">规格</div>
+                        <div class="number">数量</div>
+                        <div class="unit">单价(元)</div>
+                        <div class="state">订单状态</div>
+                        <div class="total">商品总价</div>
+                    </div>
+                    <ul>
+                        <li class="order_list_item my_after">
+                            <div class="title my_after">
+                                <div class="img"><img src="img/ad3.png" alt=""></div>
+                                <div class="text">百草味 夏威夷果200g*3袋奶油</div>
+                            </div>
+                            <div class="guige">规格：600g</div>
+                            <div class="number">x2</div>
+                            <div class="unit">
+                                <div>￥158</div>
+                                <div class="notes">在线支付</div>
+                            </div>
+                            <div class="state">待付款</div>
+                            <div class="total">
+                                <div>￥316</div>
+                                <div class="notes">（运费： ￥10）</div>
+                            </div>
+                        </li>
+                        <li class="order_list_item my_after">
+                            <div class="title my_after">
+                                <div class="img"><img src="img/ad3.png" alt=""></div>
+                                <div class="text">百草味 夏威夷果200g*3袋奶油</div>
+                            </div>
+                            <div class="guige">规格：600g</div>
+                            <div class="number">x2</div>
+                            <div class="unit">
+                                <div>￥158</div>
+                                <div class="notes">在线支付</div>
+                            </div>
+                            <div class="state">待付款</div>
+                            <div class="total">
+                                <div>￥316</div>
+                                <div class="notes">（运费： ￥10）</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="totals">
+                        订单总价 : <span>￥<i>652</i></span>元
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第十五块 我的订单 待收货状态  -->
+        <div class="w12 order_state order_state_shouhuo none">
+                <div class="order_state_info">
+                    <div>
+                        当前订单状态： 货已送到您手上，请确认收货
+                    </div>
+                    <div class="order_state_info_btn">
+                        <span class="shouhuo">立即付款</span>
+                    </div>
+                </div>
+                
+                <div class="order_info">
+                    
+                <div class="info_title">订单信息</div>
+                    <div class="info_address  border">
+                        <p>
+                            <span class="title"> 收货地址：</span>
+                            <span>
+                                庞少军，86-13751893217，广东省 广州市 天河区 车陂街道 广州市天河区东圃大马路8号时代TIT广场4楼430 ，000000
+                            </span>
+                        </p>
+                        <p>
+                            <span class="title">订单编号：</span>
+                            <span>SKYJ12525441</span>
+                        </p>
+                        <p>
+                            <span class="title">创建时间：</span>
+                            <span>2015-10-02 12:20</span>
+                        </p>
+                        <p>
+                                <span class="title">付款时间：</span>
+                                <span>2015-10-02 12:23</span>
+                            </p>
+                            <p>
+                                    <span class="title">物流信息：</span>
+                                    <span>申通物流 123456</span>
+                                </p>
+                        <p>
+                            <span class="title">备注：</span>
+                            <span><textarea></textarea></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="order_list">
+                    <div class="pay_info border">
+                        <div class="pay_info_title">商品信息</div>
+                        <div class="order_list_title my_after border">
+                            <div class="title">宝贝</div>
+                            <div class="guige">规格</div>
+                            <div class="number">数量</div>
+                            <div class="unit">单价(元)</div>
+                            <div class="state">订单状态</div>
+                            <div class="total">商品总价</div>
+                        </div>
+                        <ul>
+                            <li class="order_list_item my_after">
+                                <div class="title my_after">
+                                    <div class="img"><img src="img/ad3.png" alt=""></div>
+                                    <div class="text">百草味 夏威夷果200g*3袋奶油</div>
+                                </div>
+                                <div class="guige">规格：600g</div>
+                                <div class="number">x2</div>
+                                <div class="unit">
+                                    <div>￥158</div>
+                                    <div class="notes">在线支付</div>
+                                </div>
+                                <div class="state">待付款</div>
+                                <div class="total">
+                                    <div>￥316</div>
+                                    <div class="notes">（运费： ￥10）</div>
+                                </div>
+                            </li>
+                            <li class="order_list_item my_after">
+                                <div class="title my_after">
+                                    <div class="img"><img src="img/ad3.png" alt=""></div>
+                                    <div class="text">百草味 夏威夷果200g*3袋奶油</div>
+                                </div>
+                                <div class="guige">规格：600g</div>
+                                <div class="number">x2</div>
+                                <div class="unit">
+                                    <div>￥158</div>
+                                    <div class="notes">在线支付</div>
+                                </div>
+                                <div class="state">待付款</div>
+                                <div class="total">
+                                    <div>￥316</div>
+                                    <div class="notes">（运费： ￥10）</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="totals">
+                            订单总价 : <span>￥<i>652</i></span>元
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- 第十五块 我的订单 已完成状态  -->
+        <div class="w12 order_state order_state_wancheng none">
+            <div class="tuihuo_info none">
+                <div class="tuiuo_input">
+                    <div class="tuihuo_title">申请退货
+                        <span>X</span>
+                    </div>
+                    <div class="tuihuo_row my_after yuanyin">
+                        <div class="left">
+                            退货原因<i>*</i>
+                        </div>
+                        <div class="right">
+                            <div class="a">
+                                <div class="b">
+                                    <div class="b_a"></div>
+                                </div>
+                                <input type="text" placeholder="请选择退货原因">
+                                <ul class="tuihuoyuanyin none">
+                                    <li>12</li>
+                                    <li>22</li>
+                                    <li>33</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="xuanxiang"><i>*</i>选项必填</div>
+                    </div>
+                    <div class="tuihuo_row my_after">
+                        <div class="left">退款金额<i>*</i></div>
+                        <div class="right">
+                            <input class="money_num" type="text" placeholder="">
+                        </div>
+                    </div>
+                    <div class="tuihuo_row my_after">
+                        <div class="left">退款说明：</div>
+                        <div class="right money_r">
+                            <textarea class="text" type="text" placeholder=""></textarea>
+                        </div>
+                    </div>
+                    <div class="tuihuo_row my_after">
+                        <div class="left">上传凭证：</div>
+                        <div class="right">
+                            <div class="tuikuan_file">
+                                选择要上传的图片
+                                <input type="file">
+                            </div>
+                        </div>
+                        <div class="tuikuan_file_title">每张图片大小不超过5M，最多3张，支持JPG、PNG、BMP格式</div>
+                    </div>
+                    <div class="tuihuo_row my_after">
+                        <div class="left"> </div>
+                        <div class="right">
+                            <button>提交</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order_state_info">
+                <div>
+                    当前订单状态： 货已送到您手上，请确认收货
+                </div>
+                <div class="order_state_info_btn">
+                    <span class="pingjia">去评价</span>
+                    <span class="tuihuo">申请退货</span>
+                </div>
+            </div>
+        
+            <div class="order_info">
+                <div class="info_title">订单信息</div>
+                <div class="info_address  border">
+                    <p>
+                        <span class="title"> 收货地址：</span>
+                        <span>
+                            庞少军，86-13751893217，广东省 广州市 天河区 车陂街道 广州市天河区东圃大马路8号时代TIT广场4楼430 ，000000
+                        </span>
+                    </p>
+                    <p>
+                        <span class="title">订单编号：</span>
+                        <span>SKYJ12525441</span>
+                    </p>
+                    <p>
+                        <span class="title">创建时间：</span>
+                        <span>2015-10-02 12:20</span>
+                    </p>
+                    <p>
+                        <span class="title">付款时间：</span>
+                        <span>2015-10-02 12:23</span>
+                    </p>
+                    <p>
+                        <span class="title">物流信息：</span>
+                        <span>申通物流 123456</span>
+                    </p>
+                    <p>
+                        <span class="title">签收时间：</span>
+                        <span>2015-10-02 12:23</span>
+                    </p>
+                    <p>
+                        <span class="title">备注：</span>
+                        <span><textarea></textarea></span>
+                    </p>
+                </div>
+            </div>
+            <div class="order_list">
+                <div class="pay_info border">
+                    <div class="pay_info_title">商品信息</div>
+                    <div class="order_list_title my_after border">
+                        <div class="title">宝贝</div>
+                        <div class="guige">规格</div>
+                        <div class="number">数量</div>
+                        <div class="unit">单价(元)</div>
+                        <div class="state">订单状态</div>
+                        <div class="total">商品总价</div>
+                    </div>
+                    <ul>
+                        <li class="order_list_item my_after">
+                            <div class="title my_after">
+                                <div class="img"><img src="img/ad3.png" alt=""></div>
+                                <div class="text">百草味 夏威夷果200g*3袋奶油</div>
+                            </div>
+                            <div class="guige">规格：600g</div>
+                            <div class="number">x2</div>
+                            <div class="unit">
+                                <div>￥158</div>
+                                <div class="notes">在线支付</div>
+                            </div>
+                            <div class="state">待付款</div>
+                            <div class="total">
+                                <div>￥316</div>
+                                <div class="notes">（运费： ￥10）</div>
+                            </div>
+                        </li>
+        
+                    </ul>
+                    <div class="totals">
+                        订单总价 : <span>￥<i>652</i></span>元
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w12 order_stata order_state_pingjia border none">
+            <div class="right">
+                <div class="top">
+                        <div class="xingxing">
+                               <i class="active"></i>
+                               <i class="active"></i>
+                               <i class="active"></i>
+                               <i></i>
+                               <i></i>
+                         </div>
+                    <div class="title">评论</div>
+                </div>
+                <div class="content">
+                    <textarea placeholder="请输入评论内容！"></textarea>
+                </div>
+                <div class="btn cliearfix">
+                    <input type="button" value="提交">
+                </div>
+            </div>
+            <div class="left my_after">
+                <div class="img">
+                    <img src="img/ad3.png" alt="">
+                </div>
+                <div class="text">
+                    <p>坚果特产山核桃奶油味碧根坚果特产山核桃奶油味碧根</p>
+                    <p>规格：600g</p>
+                    <p>￥29.5 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚信息 -->
+    <div class="footer my_after">
+        <div>
+            <p class="footer_nav">
+                <a href="#">首页</a>
+                <a href="#">精彩生活</a>
+                <a href="#">生活食品</a>
+                <a href="#">生活用品</a>
+                <a href="#">生活家居</a>
+                <a href="#">会员杂锦</a>
+                <a href="#">一键客服</a>
+                <a href="#" class="a">关于我们</a>
+            </p>
+            <p class="footer_copy">
+                Copyright© 生活一家 2007-2015，All Rights Reserved
+            </p>
+        </div>
+    </div>
+    <script src="js/content.js"></script>
+</body>
+
+</html>

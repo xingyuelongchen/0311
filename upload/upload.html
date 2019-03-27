@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>upLoad</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <div id="upload">
+            <input type='file' id='file' name="" multiple style="display:none">
+            <span id="upload_btn"></span>
+            <div id="upload_info"></div>
+        </div>
+    </form>
+    <script>
+        window.onload = function () {
+            function fn(a) {
+                console.log(a);
+                return a
+            }
+            var config = {
+                //这里是配置
+            }
+            upload.play(config, fn); //用回调函数接收完成后的数据
+        }
+        var upload = {
+            app: document.getElementById('upload'),
+            btn: document.getElementById('upload_btn'),
+            fileBox: document.getElementById('file'),
+            upload_info: document.getElementById('upload_info'),
+            fileData: [],
+            fetchGo: true,
+            fn: '',
+            input: function (e) { //上传的数据
+                for (let i = 0; i < e.length; i++) {
+                    this.fileData.push(e[i]);
+                }
+                this.show();
+            },
+            show: function () { //选中上传文件后，显示文件名
+                var e = this.fileData;
+                // console.log(e);
+                let a = ' ';
+                let b =
+                    'display:block;width:100% ;line-height:45px;text-align: center;background: #eee;border:1px solid #ccc; border-radius: 4px;margin: 5px auto;';
+                for (let i = 0; i < e.length; i++) {
+                    a += '<span class="upload_info" title="\u70b9\u51fb\u5220\u9664" id=' + i + '>' + e[i].name +
+                        '</span>';
+                }
+                this.upload_info.innerHTML = a;
+                var span = this.upload_info.getElementsByTagName('span');
+                for (let i = 0; i < span.length; i++) {
+                    span[i].setAttribute('style', b);
+                    span[i].onclick = function () {
+                        upload.del(this);
+                    }
+                }
+                let formdata = new FormData();
+                formdata.append('files', this.fileData);
+                return this.fn(this.fileData);
+            },
+            del: function (e) { //删除选中的
+                id = e.id;
+                this.fileData.splice(id, 1);
+                this.show();
+            },
+            fetchData: function () {
+                return this.fileData;
+
+            },
+            fileType: function (e) {
+                e = e.name; //设置了用名称显示待上传文件
+                if (typeof e == 'string') {
+                    let a = /\.(\w*)/; //获取字符串.后面的字符
+                    let b = e.match(a)[1]
+                    return b;
+                } else if (typeof e == 'Array' || typeof e == 'object') {
+                    let c = /\/(\w*)/
+                    return e.type; //.match(c)[1];
+                }
+            },
+            play: function (fn) {
+                this.fn = fn;
+                var a = a ? a : 'width:300px;height:200px;border-radius:4px;border:1px solid #eee';
+                var b = b ? a :
+                    'width:100%;line-height:200px;text-align:center;background:transparent;font-size:50px;font-weight:bold;border:0;color:#ccc';
+                //初始化上传窗口 
+                this.app.setAttribute('style', a);
+                this.btn.setAttribute('style', b);
+                this.btn.style.display = 'block';
+                this.btn.innerHTML = '+';
+                this.app.style.cursor = 'pointer';
+                //点击上传
+                this.btn.onclick = function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    upload.fileBox.click();
+                    upload.fileBox.onchange = function () {
+                        upload.input(this.files)
+                    }
+
+                };
+                //拖拽上传
+                this.btn.ondrop = function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    let file = e.dataTransfer.files;
+                    upload.input(file)
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
