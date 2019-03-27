@@ -84,7 +84,8 @@ a {
 	zoom: 1;
 }
 
-.clearfix:after {
+.clearfix:after,
+.clear:after {
 	display: block;
 	overflow: hidden;
 	clear: both;
@@ -93,8 +94,21 @@ a {
 	content: ".";
 }
 
-
 a:link,a:visited,a:hover,a:active{text-decoration:none;} 
 
+
+.my_inblock {}
+
+.my_inblock>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.my_inblock:after {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 /*==========================Reset_End===========================*/
