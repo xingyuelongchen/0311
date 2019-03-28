@@ -1,3 +1,4 @@
+
 .wrap {
     width: 1200px;
     margin: 0 auto;
@@ -424,9 +425,7 @@ a {
 .product > .right_box .list_item{
     margin-top:20px;
 }
-.product > .right_box .list_item>.items{
-    /* float: left; */
-}
+
 .product > .right_box .list_item .items{
     width:236px;
     height:386px;

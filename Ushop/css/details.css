@@ -1,0 +1,180 @@
+.details {
+    font-family: SimSun, "微软雅黑";
+}
+
+.details .details_content .details_img {
+    position: relative;
+}
+
+.details .details_content .details_img .img_big {
+    width: 420px;
+    height: 420px;
+    background: #ccc;
+    overflow: hidden;
+    position: relative;
+}
+
+.details .details_content .details_img img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.details .details_content .details_img .img_small {
+    font-size: 0;
+    margin-top: 10px;
+}
+
+.details .details_content .details_img .img_small span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 66px;
+    height: 66px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 0 2px;
+}
+
+.details .details_content .details_img .img_small span:hover {
+    border: 2px solid #f36b11;
+}
+
+.details .details_content .details_img .img_small span:last-of-type, .details .details_content .details_img .img_small span:first-of-type {
+    width: 18px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    background: #f4f4f4;
+}
+
+.details .details_content .details_img .btn .icon_fdj {
+    display: inline-block;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 24px;
+    height: 22px;
+    background: rgba(245, 234, 229, .7) url(../img/icon-fdj.png) no-repeat center;
+}
+
+.details .details_content .details_text.right>p {
+    width: 670px;
+    line-height: 26px;
+    font-family: "微软雅黑";
+    text-align: left;
+}
+
+.details .details_content .details_text.right>.details_title {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.details .details_content .details_text.right>.details_vice {
+    color: #666;
+    font-size: 14px;
+}
+
+.details .details_content .details_text.right>.details_vice a {
+    color: #f36b11;
+    text-decoration: underline;
+}
+
+.details .details_content .details_text.right>.details_money {
+    width: 750px;
+    height: 130px;
+    margin-top: 8px;
+    background: #fff7ee url(../img/bg.png) no-repeat bottom center;
+    overflow: hidden;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.details .details_content .details_text.right>.details_money b{
+    display: inline-block;
+    width:60px;
+    height:16px;
+    line-height: 16px;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #858585;
+}
+.details .details_content .details_text.right>.details_money .left {
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.details .details_content .details_text.right>.details_money .left em {
+    font-family: "微软雅黑";
+    font-size: 30px;
+    color: #f36b11;
+    padding-right:20px;
+    vertical-align: middle;
+}
+
+.details .details_content .details_text.right>.details_money .left i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    font-family: SimSun;
+    font-size: 12px;
+    text-align: center;
+    text-indent: 10px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background: url(../img/jjtz.png) no-repeat center;
+    font-style: normal;
+}
+
+.details .details_content .details_text.right>.details_money .right {
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.details .details_content .details_text.right>.details_money .right i {
+    display: inline-block;
+    width: 15px;
+    height: 40px;
+    padding: 0 5px;
+    color: #f36b11;
+}
+
+.details .details_content .details_text.right>.details_money .right:hover i {
+    background: url(../img/star_hover.png) no-repeat center;
+}
+
+.details .details_content .details_text.right>.details_money .pj {
+    line-height: 28px;
+}
+.details .details_content .details_text.right>.details_money .pj span{
+    line-height: 28px;
+    color:#f36b11;
+    text-decoration:underline;
+}
+
+.details .details_content .details_text.right>.details_money .yf {
+    line-height: 28px;
+}
+.details .details_content .details_text.right>.details_money .yf b{
+    letter-spacing: 9px;
+}
+.details .details_content .details_text.right>.details_money .yf span{
+    line-height: 28px;
+    color:#333;
+}
+.details .details_content .details_text.right>.details_spec div{
+    height:50px;
+    padding-left:18px;
+}
